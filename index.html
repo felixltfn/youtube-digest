@@ -4,7 +4,7 @@
 *{box-sizing:border-box}
 html{background:#fff}
 body{margin:0;color:var(--ink);font:16px/1.55 var(--font);-webkit-font-smoothing:antialiased}
-.stat b,.rank,.sec span,ol.take li::before{font-variant-numeric:tabular-nums}
+.stat b,.rank,.sec span{font-variant-numeric:tabular-nums}
 a{color:inherit}
 main{max-width:1120px;margin:0 auto;padding:24px 20px 96px}
 .top{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding-bottom:12px;
@@ -34,15 +34,33 @@ margin:0;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppe
 font-weight:700;letter-spacing:.06em;text-transform:uppercase;vertical-align:1px}
 h3 a,h4 a{text-decoration:none}
 h3 a:hover,h4 a:hover{color:var(--accent)}
-.hot-item{display:grid;grid-template-columns:1fr;gap:18px;padding:36px 0 40px;border-bottom:1px solid var(--rule)}
+.hot-item{display:grid;grid-template-columns:minmax(0,1fr);gap:18px;padding:36px 0 40px;border-bottom:1px solid var(--rule)}
 .rank{font-size:48px;font-weight:800;line-height:.9;letter-spacing:-.05em;color:var(--accent)}
 .hot-item h3{margin:6px 0 26px;font-size:clamp(24px,3.2vw,34px);font-weight:700;line-height:1.12;letter-spacing:-.025em}
 .label{margin:0 0 4px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
-ol.take{list-style:none;counter-reset:t;margin:0;padding:0}
-ol.take li{counter-increment:t;display:grid;grid-template-columns:34px 1fr;padding:12px 0;border-top:1px solid var(--rule)}
-ol.take li:first-child{border-top:0}
-ol.take li::before{content:counter(t,decimal-leading-zero);font-weight:700;color:var(--accent);font-size:14px;
-padding-top:2px}
+.verdict{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;margin:0 0 18px}
+.verdict b{padding:3px 8px 2px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+border:1.5px solid var(--ink)}
+.verdict.watch b{background:var(--accent);border-color:var(--accent);color:#fff}
+.verdict span{font-size:14px;color:var(--grey)}
+.core{margin:0 0 20px;font-size:19px;font-weight:700;line-height:1.35;letter-spacing:-.01em}
+.points{margin:0;border-top:1px solid var(--ink)}
+.points div{display:grid;grid-template-columns:1fr;gap:2px;padding:10px 0;border-bottom:1px solid var(--rule)}
+.points dt{font-size:14px;font-weight:700;color:var(--accent)}
+.points dd{margin:0;font-size:15px;line-height:1.45}
+strong{font-weight:700}
+.versus{width:100%;margin-top:20px;border-collapse:collapse;font-size:15px}
+.versus th{padding:0 12px 6px 0;border-bottom:1px solid var(--ink);text-align:left;font-size:12px;font-weight:700;
+letter-spacing:.08em;text-transform:uppercase}
+.versus td{padding:10px 12px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top;line-height:1.4}
+.versus td:last-child{width:38%;font-weight:700}
+.reco{margin:16px 0 0;padding:12px 0 0;border-top:3px solid var(--ink);font-size:16px;line-height:1.45}
+.reco b{display:block;margin-bottom:2px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.snippet ul{margin:0 0 14px;padding-left:18px;font-size:15px;line-height:1.45}
+.snippet li{margin:4px 0}
+.snippet .skill{margin:0 0 10px;font-size:15px}
+.snippet ul{margin-bottom:0}
+.snippet .hint{margin:12px 0 0;font-size:13px;color:var(--grey)}
 .none{margin:8px 0 0;color:var(--grey)}
 .snippet{margin-top:24px;padding:18px 20px 20px;background:var(--tint)}
 .snippet-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:10px}
@@ -75,6 +93,7 @@ font-size:20px;font-weight:600;text-decoration:none}
 .archive a:hover{color:var(--accent)}
 .archive a span{color:var(--light);font-weight:400}
 @media (min-width:760px){
+.points div{grid-template-columns:170px 1fr;gap:0 16px}
 main{padding:32px 40px 120px}
 .hero{padding:72px 0 56px}
 .facts{grid-template-columns:5fr 7fr;align-items:end}
