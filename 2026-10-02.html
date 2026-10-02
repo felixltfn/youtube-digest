@@ -1,0 +1,151 @@
+<!DOCTYPE html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="robots" content="noindex, nofollow"><meta name="color-scheme" content="light"><title>KI-Videos · 02.10.2026</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap"><style>
+:root{--ink:#111;--grey:#6e6e6e;--light:#a8a8a8;--rule:#e6e6e6;--tint:#f5f5f3;--accent:#e4002b;
+--font:"Schibsted Grotesk","Helvetica Neue",Helvetica,Arial,sans-serif;--mono:ui-monospace,SFMono-Regular,Menlo,monospace}
+*{box-sizing:border-box}
+html{background:#fff}
+body{margin:0;color:var(--ink);font:16px/1.55 var(--font);-webkit-font-smoothing:antialiased}
+.stat b,.rank,.sec span{font-variant-numeric:tabular-nums}
+a{color:inherit}
+main{max-width:1120px;margin:0 auto;padding:24px 20px 96px}
+.top{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding-bottom:12px;
+border-bottom:3px solid var(--ink);font-size:13px;font-weight:700;letter-spacing:.02em}
+.top span{font-weight:500;color:var(--grey)}
+.top a{text-decoration:none}
+.hero{padding:48px 0 40px}
+.weekday{margin:0 0 6px;font-size:20px;font-weight:500;color:var(--grey)}
+.date{margin:0;font-size:clamp(84px,21vw,232px);font-weight:800;line-height:.82;letter-spacing:-.06em}
+.date i{font-style:normal;color:var(--accent)}
+.facts{display:grid;grid-template-columns:1fr;gap:28px;margin-top:44px;padding-top:16px;border-top:1px solid var(--rule)}
+.lede{margin:0;max-width:30ch;font-size:18px;line-height:1.4}
+.stats{display:grid;grid-template-columns:repeat(3,1fr)}
+.stat{padding:0 0 0 14px;border-left:1px solid var(--rule);text-decoration:none}
+.stat:first-child{padding-left:0;border-left:0}
+.stat b{display:block;font-size:44px;font-weight:700;line-height:1;letter-spacing:-.04em}
+.stat span{font-size:13px;color:var(--grey)}
+.stat.hot b{color:var(--accent)}
+section{margin-top:80px;scroll-margin-top:16px}
+.sec{display:flex;justify-content:space-between;align-items:baseline;padding-top:10px;border-top:3px solid var(--ink);
+margin:0;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.sec span{color:var(--grey);letter-spacing:0}
+.thumb{display:block;aspect-ratio:16/9;overflow:hidden;background:var(--tint)}
+.thumb img{display:block;width:100%;height:100%;object-fit:cover}
+.meta{font-size:13px;color:var(--grey)}
+.tag{display:inline-block;margin-left:8px;padding:0 6px;border:1px solid var(--ink);color:var(--ink);font-size:11px;
+font-weight:700;letter-spacing:.06em;text-transform:uppercase;vertical-align:1px}
+h3 a,h4 a{text-decoration:none}
+h3 a:hover,h4 a:hover{color:var(--accent)}
+.hot-item{display:grid;grid-template-columns:minmax(0,1fr);gap:18px;padding:36px 0 40px;border-bottom:1px solid var(--rule)}
+.rank{font-size:48px;font-weight:800;line-height:.9;letter-spacing:-.05em;color:var(--accent)}
+.hot-item h3{margin:6px 0 26px;font-size:clamp(24px,3.2vw,34px);font-weight:700;line-height:1.12;letter-spacing:-.025em}
+.label{margin:0 0 4px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.verdict{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;margin:0 0 18px}
+.verdict b{padding:3px 8px 2px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+border:1.5px solid var(--ink)}
+.verdict.watch b{background:var(--accent);border-color:var(--accent);color:#fff}
+.verdict span{font-size:14px;color:var(--grey)}
+.core{margin:0 0 20px;font-size:19px;font-weight:700;line-height:1.35;letter-spacing:-.01em}
+.points{margin:0;border-top:1px solid var(--ink)}
+.points div{display:grid;grid-template-columns:1fr;gap:2px;padding:10px 0;border-bottom:1px solid var(--rule)}
+.points dt{font-size:14px;font-weight:700;color:var(--accent)}
+.points dd{margin:0;font-size:15px;line-height:1.45}
+strong{font-weight:700}
+.versus{width:100%;margin-top:20px;border-collapse:collapse;font-size:15px}
+.versus th{padding:0 12px 6px 0;border-bottom:1px solid var(--ink);text-align:left;font-size:12px;font-weight:700;
+letter-spacing:.08em;text-transform:uppercase}
+.versus td{padding:10px 12px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top;line-height:1.4}
+.versus td:last-child{width:38%;font-weight:700}
+.reco{margin:16px 0 0;padding:12px 0 0;border-top:3px solid var(--ink);font-size:16px;line-height:1.45}
+.reco b{display:block;margin-bottom:2px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.snippet ul{margin:0 0 14px;padding-left:18px;font-size:15px;line-height:1.45}
+.snippet li{margin:4px 0}
+.snippet .skill{margin:0 0 10px;font-size:15px}
+.snippet ul{margin-bottom:0}
+.snippet .hint{margin:12px 0 0;font-size:13px;color:var(--grey)}
+.none{margin:8px 0 0;color:var(--grey)}
+.snippet{margin-top:24px;padding:18px 20px 20px;background:var(--tint)}
+.snippet-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:10px}
+.copy{border:0;background:none;padding:0;font:700 12px var(--font);letter-spacing:.08em;text-transform:uppercase;
+color:var(--accent);cursor:pointer}
+.snippet pre{margin:0;white-space:pre-wrap;word-break:break-word;font:13.5px/1.65 var(--mono);color:var(--ink)}
+.watch{display:inline-block;margin-top:26px;padding-bottom:2px;border-bottom:2px solid var(--ink);font-weight:700;
+text-decoration:none}
+.watch:hover{color:var(--accent);border-color:var(--accent)}
+.maybe-item{display:grid;grid-template-columns:112px 1fr;gap:16px;padding:20px 0;border-bottom:1px solid var(--rule)}
+.maybe-item h4{margin:2px 0 6px;font-size:17px;font-weight:700;line-height:1.25;letter-spacing:-.01em}
+.maybe-item p{margin:0;color:var(--grey);font-size:15px;line-height:1.45}
+.maybe-item .fazit{margin-top:8px;color:var(--ink)}
+.fazit b{color:var(--accent)}
+details summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;padding:18px 0;
+border-bottom:1px solid var(--rule);font-weight:500}
+details summary::-webkit-details-marker{display:none}
+details summary::after{content:"+";font-size:22px;line-height:1;font-weight:400}
+details[open] summary::after{content:"\2212"}
+details ul{list-style:none;margin:0;padding:0}
+details li{padding:12px 0;border-bottom:1px solid var(--rule);font-size:15px;line-height:1.4}
+details li a{text-decoration:none}
+details li a:hover{color:var(--accent)}
+details li span{color:var(--light)}
+.news-item{border-bottom:1px solid var(--rule)}
+.news-item summary{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:18px 0;
+border-bottom:0;font-size:19px;font-weight:700;line-height:1.3;letter-spacing:-.01em}
+.news-item summary span{color:var(--accent);font-variant-numeric:tabular-nums;margin-right:14px}
+.news-item summary::after{flex:none}
+.news-item p{margin:0 0 22px;max-width:68ch;font-size:15px;line-height:1.55}
+.empty{padding:40px 0;font-size:clamp(32px,5vw,48px);font-weight:700;letter-spacing:-.03em;line-height:1.05}
+.empty span{display:block;margin-top:12px;font-size:16px;font-weight:400;letter-spacing:0;color:var(--grey)}
+footer{margin-top:96px;padding-top:12px;border-top:3px solid var(--ink);font-size:13px;color:var(--grey);
+display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px}
+footer .err{flex-basis:100%;color:var(--accent)}
+.archive a{display:flex;justify-content:space-between;padding:18px 0;border-bottom:1px solid var(--rule);
+font-size:20px;font-weight:600;text-decoration:none}
+.archive a:hover{color:var(--accent)}
+.archive a span{color:var(--light);font-weight:400}
+@media (min-width:760px){
+.points div{grid-template-columns:170px 1fr;gap:0 16px}
+main{padding:32px 40px 120px}
+.hero{padding:72px 0 56px}
+.facts{grid-template-columns:5fr 7fr;align-items:end}
+.hot-item{grid-template-columns:88px minmax(0,1fr) minmax(0,400px);gap:0 32px;padding:44px 0 48px}
+.hot-item .thumb{grid-column:3;grid-row:1;align-self:start;position:sticky;top:24px}
+.hot-item .rank{grid-column:1;grid-row:1}
+.hot-item .content{grid-column:2;grid-row:1}
+.maybe-item{grid-template-columns:88px 200px minmax(0,1fr);gap:0 32px;padding:24px 0}
+.maybe-item .thumb{grid-column:2}
+.maybe-item .text{grid-column:3}
+details{margin-left:120px}}
+</style></head><body><main><div class="top"><a href="./">YouTube-Digest</a><span>Ausgabe 02.10.2026</span></div><header class="hero"><p class="weekday">Freitag</p><h1 class="date">02<i>.</i>10<i>.</i></h1><div class="facts"><p class="lede">21 neue Videos seit Donnerstag, 09:03 Uhr.</p><div class="stats"><a class="stat hot" href="#hot"><b>3</b><span>relevant</span></a><a class="stat" href="#maybe"><b>6</b><span>vielleicht</span></a><a class="stat" href="#skipped"><b>12</b><span>übersprungen</span></a></div></div></header><section id="hot"><h2 class="sec">Lohnt sich<span>03</span></h2><article class="hot-item"><a class="thumb" href="https://www.youtube.com/watch?v=Vc0lLq3SVlw" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/Vc0lLq3SVlw/hqdefault.jpg" alt="" loading="lazy"></a><div class="rank">01</div><div class="content"><div class="meta">Julian Ivanov · 01.10. · 18:23</div><h3><a href="https://www.youtube.com/watch?v=Vc0lLq3SVlw" target="_blank" rel="noopener">Claude Code ist unglaublich gut in Motion Graphics! (Opus 5.5)</a></h3><div class="verdict watch"><b>▶ Ansehen</b><span>Die Motion-Ergebnisse muss man sehen.</span></div><p class="core">Opus 5.5 + HyperFrames liefert in Claude Code <strong>brauchbare Motion Graphics</strong> für Shorts, Software-Spots und Erklärvideos — fast nur aus einem Prompt.</p><dl class="points"><div><dt>Prinzip</dt><dd>Claude baut eine animierte Website, die Bild für Bild als Video gerendert wird — jede Farbe, jedes Timing bleibt editierbarer Code.</dd></div><div><dt>Test 1: Short</dt><dd>Rohaufnahme rein → Versprecher raus, Layouts, Untertitel, recherchierte Logos/Screenshots; ~15–20 Min auf High.</dd></div><div><dt>Test 2: Spots</dt><dd>Software-Werbung (n8n, Excalidraw) mit Original-Branding und ElevenLabs-V4-Stimme; langer Prompt ~40 Min.</dd></div><div><dt>Test 3: Erklärvideo</dt><dd>1-Min-Phishing-Erklärer mit selbst gezeichneten 2D-Figuren, Extra-High, ~1 Std.</dd></div><div><dt>Schwachstelle</dt><dd>Selbst erzeugte Musik/SFX klingen künstlich — besser lizenzfreie Tracks (Pixabay) mitgeben.</dd></div></dl><div class="snippet"><div class="snippet-head"><p class="label">Skill-Update zum Kopieren</p><button class="copy" type="button">Kopieren</button></div><p class="skill">Neu für <strong>prompt-optimizer</strong>:</p><ul><li>Opus 5.5 nicht Schritt für Schritt anleiten: nur Ziel, Referenzen und Geschmack (Look, Zielgruppe, Untertitel-Stil) vorgeben.</li><li>Alles, was individueller Geschmack ist, explizit beschreiben — das kann das Modell nicht selbst erschließen.</li><li>Für Video-Aufgaben Fakten an offizielle Quellen binden (z. B. &#x27;recherchiere, was BSI und Verbraucherzentrale empfehlen&#x27;).</li><li>Assets mitgeben statt generieren lassen, wo Qualität zählt (Sprecherstimme, Musik, SFX).</li></ul><p class="hint">„Kopieren“ holt den fertigen Prompt für claude.ai, der den skill-updater startet.</p><pre hidden>Nutze den Skill „skill-updater“, um meinen Skill „prompt-optimizer“ zu aktualisieren.
+
+Quelle: YouTube-Video „Claude Code ist unglaublich gut in Motion Graphics! (Opus 5.5)“ (Julian Ivanov)
+https://www.youtube.com/watch?v=Vc0lLq3SVlw
+
+Neue Erkenntnisse aus dem Video:
+- Opus 5.5 nicht Schritt für Schritt anleiten: nur Ziel, Referenzen und Geschmack (Look, Zielgruppe, Untertitel-Stil) vorgeben.
+- Alles, was individueller Geschmack ist, explizit beschreiben — das kann das Modell nicht selbst erschließen.
+- Für Video-Aufgaben Fakten an offizielle Quellen binden (z. B. &#x27;recherchiere, was BSI und Verbraucherzentrale empfehlen&#x27;).
+- Assets mitgeben statt generieren lassen, wo Qualität zählt (Sprecherstimme, Musik, SFX).
+
+Vorgehen:
+1. Lies die aktuelle Version von „prompt-optimizer“ vollständig.
+2. Prüfe jeden Punkt: schon abgedeckt, widerspricht er bestehenden Regeln, oder ist er wirklich neu?
+3. Übernimm nur die neuen, stimmigen Punkte an der passenden Stelle, knapp und im Stil des Skills.
+4. Zeig mir zuerst kurz, was du übernimmst und was du verwirfst (mit Grund), dann bau die neue Version.</pre></div><a class="watch" href="https://www.youtube.com/watch?v=Vc0lLq3SVlw" target="_blank" rel="noopener">Auf YouTube ansehen →</a></div></article><article class="hot-item"><a class="thumb" href="https://www.youtube.com/watch?v=6_rCyryA6hg" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/6_rCyryA6hg/hqdefault.jpg" alt="" loading="lazy"></a><div class="rank">02</div><div class="content"><div class="meta">Roboverse · 01.10. · 09:53</div><h3><a href="https://www.youtube.com/watch?v=6_rCyryA6hg" target="_blank" rel="noopener">Claude Code Can Now Automate Your Videos (Remotion + Opus 5.5)</a></h3><div class="verdict watch"><b>▶ Ansehen</b><span>Lower Thirds und Charts muss man sehen.</span></div><p class="core">Mit dem <strong>Remotion-Plugin</strong> in Claude Code entstehen Lower Thirds, animierte Charts, App-Spots und Intros aus einem Prompt — bis zum fertigen MP4.</p><dl class="points"><div><dt>Setup</dt><dd>Claude Desktop (Code-Tab, lokal) + Node.js, danach Rechner neu starten — sonst schlägt die Remotion-Installation fehl.</dd></div><div><dt>Skills</dt><dd>Ein Setup-Prompt installiert Projekt + 12 offizielle Remotion-Skills und startet Remotion Studio als Vorschau.</dd></div><div><dt>Prompt-Stil</dt><dd>Wie für einen Cutter schreiben: Zweck, Text auf dem Screen, was Sekunde für Sekunde passiert.</dd></div><div><dt>Iteration</dt><dd>&#x27;Erst Kopie anlegen, nur die Kopie ändern&#x27; — und sagen, was bleiben soll (z. B. Glow auf dem Highlight-Balken).</dd></div><div><dt>Export</dt><dd>Ein Prompt rendert alle Versionen als MP4 in einen renders-Ordner.</dd></div></dl><div class="snippet"><div class="snippet-head"><p class="label">Skill-Update zum Kopieren</p><button class="copy" type="button">Kopieren</button></div><p class="skill">Neu für <strong>prompt-optimizer</strong>:</p><ul><li>Feedback-Prompts für Iterationen: zuerst eine Kopie anlegen lassen und nur die Kopie ändern, damit das Original erhalten bleibt.</li><li>In Korrektur-Prompts nicht nur benennen, was stört, sondern auch, was ausdrücklich gleich bleiben soll.</li></ul><p class="hint">„Kopieren“ holt den fertigen Prompt für claude.ai, der den skill-updater startet.</p><pre hidden>Nutze den Skill „skill-updater“, um meinen Skill „prompt-optimizer“ zu aktualisieren.
+
+Quelle: YouTube-Video „Claude Code Can Now Automate Your Videos (Remotion + Opus 5.5)“ (Roboverse)
+https://www.youtube.com/watch?v=6_rCyryA6hg
+
+Neue Erkenntnisse aus dem Video:
+- Feedback-Prompts für Iterationen: zuerst eine Kopie anlegen lassen und nur die Kopie ändern, damit das Original erhalten bleibt.
+- In Korrektur-Prompts nicht nur benennen, was stört, sondern auch, was ausdrücklich gleich bleiben soll.
+
+Vorgehen:
+1. Lies die aktuelle Version von „prompt-optimizer“ vollständig.
+2. Prüfe jeden Punkt: schon abgedeckt, widerspricht er bestehenden Regeln, oder ist er wirklich neu?
+3. Übernimm nur die neuen, stimmigen Punkte an der passenden Stelle, knapp und im Stil des Skills.
+4. Zeig mir zuerst kurz, was du übernimmst und was du verwirfst (mit Grund), dann bau die neue Version.</pre></div><a class="watch" href="https://www.youtube.com/watch?v=6_rCyryA6hg" target="_blank" rel="noopener">Auf YouTube ansehen →</a></div></article><article class="hot-item"><a class="thumb" href="https://www.youtube.com/watch?v=GewbSNoJCxU" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/GewbSNoJCxU/hqdefault.jpg" alt="" loading="lazy"></a><div class="rank">03</div><div class="content"><div class="meta">Adrien | AI Designer · 02.10. · 12:55</div><h3><a href="https://www.youtube.com/watch?v=GewbSNoJCxU" target="_blank" rel="noopener">I Rebuilt My 3 Companies&#x27; Websites (Full Workflow)</a></h3><div class="verdict read"><b>Lesen reicht</b><span>Der Workflow steht hier komplett.</span></div><p class="core">Neue Modelle bauen Websites <strong>auf Anhieb genau</strong> — aber nur mit guter Vorbereitung: Recherche, Referenzen und eigene Grafiken schlagen Design-Skills.</p><dl class="points"><div><dt>Referenzen</dt><dd>Moodboard Sektion für Sektion; Effekte von details.so-Seiten per Link nachbauen lassen, dann eigenes Branding drüber.</dd></div><div><dt>Figma zuerst</dt><dd>Landingpage mit eigenen Infografiken in Figma, dann per Figma MCP in 3–5 Prompts entwickelt.</dd></div><div><dt>Templates</dt><dd>Unterseiten aus wiederverwendbaren Komponenten der Landingpage — ganze Website an einem Tag.</dd></div><div><dt>Grenze</dt><dd>Ohne klare eigene Idee kommt kein kreatives Design; komplexe Infografiken brauchten 5–10 Iterationen.</dd></div><div><dt>Design-Skills</dt><dd>Mit Designwissen unnötig, ohne hilft ein Frontend-Design-Skill — erster Entwurf ist sonst schwach.</dd></div></dl><a class="watch" href="https://www.youtube.com/watch?v=GewbSNoJCxU" target="_blank" rel="noopener">Auf YouTube ansehen →</a></div></article></section><section id="maybe"><h2 class="sec">Vielleicht<span>06</span></h2><article class="maybe-item"><a class="thumb" href="https://www.youtube.com/watch?v=pY5_Ux_YJjo" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/pY5_Ux_YJjo/mqdefault.jpg" alt="" loading="lazy"></a><div class="text"><div class="meta">Nate Herk | AI Automation · 01.10.</div><h4><a href="https://www.youtube.com/watch?v=pY5_Ux_YJjo" target="_blank" rel="noopener">I Tested Codex&#x27;s $500/mo Ultrafast. What You Need to Know.</a></h4><p>Nate Herk testet Codex Ultrafast gegen Standard mit GPT-6 Astra an einem Reel-Schnitt und einem Resource Guide.</p><p class="fazit"><b>Fazit:</b> Ultrafast ist <strong>2,5–7× schneller</strong>, frisst aber bis zu 4× mehr Wochen-Usage — Qualität beim Guide gleich, beim Reel sogar besser.</p></div></article><article class="maybe-item"><a class="thumb" href="https://www.youtube.com/watch?v=0yv0r5UyzCY" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/0yv0r5UyzCY/mqdefault.jpg" alt="" loading="lazy"></a><div class="text"><div class="meta">Curious Refuge · 02.10.</div><h4><a href="https://www.youtube.com/watch?v=0yv0r5UyzCY" target="_blank" rel="noopener">Are These AI Tools the Future of Sound Design?</a></h4><p>Curious Refuge testet, ob KI-Agents automatisch Sounddesign für fertige Clips bauen können — gegen einen menschlichen Sounddesigner.</p><p class="fazit"><b>Fazit:</b> Nicht profitauglich: invideo-Agent ~1–2/10, GPT-6 Astra (über Premiere) besser, aber weit hinter dem Menschen.</p></div></article><article class="maybe-item"><a class="thumb" href="https://www.youtube.com/watch?v=bE0XcTv3tKg" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/bE0XcTv3tKg/mqdefault.jpg" alt="" loading="lazy"></a><div class="text"><div class="meta">Jack Roberts · 01.10.</div><h4><a href="https://www.youtube.com/watch?v=bE0XcTv3tKg" target="_blank" rel="noopener">Watch me vibe code an Animated App (Opus 5.5)</a></h4><p>Jack Roberts baut mit Opus 5.5 (über Abacus AI, gesponsert) eine animierte Duolingo-artige Lern-App.</p><p class="fazit"><b>Fazit:</b> Design-Referenzen echter Apps (z. B. Page Flows) + skizzierte App-Struktur im Prompt bringen eine nahezu fertige App im <strong>One-Shot</strong>.</p></div></article><article class="maybe-item"><a class="thumb" href="https://www.youtube.com/watch?v=yaFMhRYSmiY" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/yaFMhRYSmiY/mqdefault.jpg" alt="" loading="lazy"></a><div class="text"><div class="meta">Julian Ivanov · 01.10.</div><h4><a href="https://www.youtube.com/watch?v=yaFMhRYSmiY" target="_blank" rel="noopener">Claude Code hat zwei Gedächtnisse: So funktionieren sie #claudecode #claude #ai</a></h4><p>Julian Ivanov erklärt kurz die zwei Gedächtnisse von Claude Code: CLAUDE.md und Auto Memory.</p><p class="fazit"><b>Fazit:</b> Auto Memory bleibt lokal auf deinem Rechner — was fürs Team oder mehrere Macs gelten soll, gehört in die <strong>CLAUDE.md</strong>.</p></div></article><article class="maybe-item"><a class="thumb" href="https://www.youtube.com/watch?v=vo6suqloJtA" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/vo6suqloJtA/mqdefault.jpg" alt="" loading="lazy"></a><div class="text"><div class="meta">Christoph Magnussen<span class="tag">Short</span></div><h4><a href="https://www.youtube.com/watch?v=vo6suqloJtA" target="_blank" rel="noopener">Neues KI-Modell Sonnet 5.5! #claude</a></h4><p>Christoph Magnussen stellt in einem Short Sonnet 5.5 vor.</p><p class="fazit"><b>Fazit:</b> Sonnet 5.5 braucht für die meisten Aufgaben <strong>~30 % weniger Tokens</strong> als Sonnet 5 und läuft mit Agents deutlich länger.</p></div></article><article class="maybe-item"><a class="thumb" href="https://www.youtube.com/watch?v=JuzTv8h3Qa4" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/JuzTv8h3Qa4/mqdefault.jpg" alt="" loading="lazy"></a><div class="text"><div class="meta">Higgsfield AI<span class="tag">Short</span></div><h4><a href="https://www.youtube.com/watch?v=JuzTv8h3Qa4" target="_blank" rel="noopener">FLUX 3 Image on Higgsfield | Bring Your Ideas to Life</a></h4><p>Higgsfield bringt FLUX 3 Image von Black Forest Labs: Details gezielt editieren, Objekte per Bounding Box platzieren, bis zu 10 Referenzen kombinieren.</p></div></article></section><section id="skipped"><h2 class="sec">Übersprungen<span>12</span></h2><details><summary>12 Videos passen nicht zu deinem Profil</summary><ul><li><a href="https://www.youtube.com/watch?v=lQ0__Yk9TIo" target="_blank" rel="noopener">Sketch to AI Art: My Terrible Drawing Skills!</a> <span>— AI for Real Life: Redefining Filmmaking</span></li><li><a href="https://www.youtube.com/watch?v=vwzV-YsVswA" target="_blank" rel="noopener">Claude Code Local SEO Agent: Automate Everything ($500K+ Earned)</a> <span>— Jono Catliff</span></li><li><a href="https://www.youtube.com/watch?v=zMg6uWJv_f8" target="_blank" rel="noopener">How I run ads with ChatGPT</a> <span>— Higgsfield AI</span></li><li><a href="https://www.youtube.com/watch?v=k-DJ9pfPZeY" target="_blank" rel="noopener">Turn Your Designs Into Motion Graphics in 2 Minutes</a> <span>— Adrien | AI Designer</span></li><li><a href="https://www.youtube.com/watch?v=GfhwDvqTZII" target="_blank" rel="noopener">KI-WELTUNTERGANG oder ANGST-MARKETING? Was steckt dahinter?</a> <span>— Christoph Magnussen</span></li><li><a href="https://www.youtube.com/watch?v=kEPOJ8y0OrI" target="_blank" rel="noopener">KI-Deepdive mit Christoph Magnussen | LIVE Q&amp;A</a> <span>— Christoph Magnussen</span></li><li><a href="https://www.youtube.com/watch?v=YWafAtjSoVc" target="_blank" rel="noopener">So erstellst du Cookies für deine Website mit Cookiebot #cookie #datenschutz #compliance</a> <span>— Julian Ivanov</span></li><li><a href="https://www.youtube.com/watch?v=3CRRUYIm8wo" target="_blank" rel="noopener">How To Restyle Your Videod Instantly</a> <span>— Higgsfield AI</span></li><li><a href="https://www.youtube.com/watch?v=cA20fxEp128" target="_blank" rel="noopener">This ChatGPT Skill Replaced My YouTube Manager</a> <span>— Jack Roberts</span></li><li><a href="https://www.youtube.com/watch?v=b8SU4cqAWTk" target="_blank" rel="noopener">„In 5 Jahren sind ALLE Bürojobs weg!&quot; DAS passiert danach (Prof. Marcus Hutter)</a> <span>— Everlast AI</span></li><li><a href="https://www.youtube.com/watch?v=zSBLYJeawC0" target="_blank" rel="noopener">The Playbook for Becoming a Top 1% Marketer in 2027</a> <span>— Marketing Against the Grain</span></li><li><a href="https://www.youtube.com/watch?v=8HGnWwCaJ9I" target="_blank" rel="noopener">My ADHD superpower: Building an AI film team!</a> <span>— AI for Real Life: Redefining Filmmaking</span></li></ul></details></section><section id="newsletter"><h2 class="sec">Newsletter<span>05</span></h2><details class="news-item"><summary><div><span>01</span>OpenAI startet „Dots“: proaktive Personal Agents mit eigenem Cloud-Computer</div></summary><p>Größter Launch der <strong>OpenAI DevDay</strong>: Dots sind dauerhaft laufende persönliche Agents auf Basis von GPT-6 Astra. Man kann ihnen schreiben oder sie anrufen, sie benennen und ein Avatar wählen — und sie melden sich auch von selbst. Technisch ist ein Dot ein endloser Master-Chat, der Aufgaben annimmt, dafür neue Chats in Codex bzw. ChatGPT Work startet und den Status zurückmeldet. Er läuft auf einem eigenen Computer, der Desktop muss also nicht an sein. Laut Ben&#x27;s Bites fehlt eine klare Möglichkeit für eigene Memory-/Persönlichkeits-Dateien wie bei OpenClaw; der Nutzen hängt stark von verbundenen Tools ab (Kalender, Mail, Slack, Notion).</p></details><details class="news-item"><summary><div><span>02</span>DevDay-Rest: GPT-6.1 Sol, ChatGPT Space, Plugins und Ultrafast</div></summary><p>Neben Dots kamen mehrere Updates: <strong>GPT-6.1 Sol</strong> gilt als echtes Upgrade, nachdem GPT-6 Sol als Rückschritt empfunden wurde. <strong>ChatGPT Space</strong> ist ein Notion-artiger Dokument-Workspace in ChatGPT, den man mit Agents und Team teilt. <strong>Plugins</strong> sind OpenAIs neuer Anlauf für Apps in ChatGPT (z. B. tldraws Multiplayer-Canvas). Mit „Sign in with ChatGPT“ lässt sich die eigene ChatGPT-Nutzung in anderen KI-Apps verwenden. <strong>Ultrafast</strong> lässt GPT-6 Astra bis zu 8× schneller arbeiten, verbraucht aber laut Ben&#x27;s Bites rund 6× so viel Usage. Außerdem: Codex Cloud hat jetzt wiederverwendbare Environments.</p></details><details class="news-item"><summary><div><span>03</span>Google kündigt Gemini 4 Argon an – laut Benchmarks vor GPT-6 Astra und Opus 5.5</div></summary><p>Google hat <strong>Gemini 4 Argon</strong> vorgestellt, ein Frontier-Modell für lang andauerndes Reasoning in Softwareentwicklung, Enterprise-Wissensarbeit und Cybersecurity. Nutzen kann man es noch nicht: Zugang gibt es zunächst nur für ausgewählte Cyber-Verteidiger, breitere Verfügbarkeit soll nach gestaffelten Sicherheitstests folgen. Die veröffentlichten Benchmarks sehen laut Ben&#x27;s Bites <strong>besser aus als GPT-6 Astra und Opus 5.5</strong>. Damit ist Google wieder klar im Rennen um das stärkste Modell — relevant, sobald es tatsächlich verfügbar ist und sich in Praxistests gegen Claude behaupten muss.</p></details><details class="news-item"><summary><div><span>04</span>Anthropic: Claude for Government GA, Claude Code baut eigene Evals</div></summary><p><strong>Claude for Government</strong> ist allgemein verfügbar: FedRAMP-High-autorisierte Coding- und Agent-Funktionen für US-Bundes- und Landesbehörden, mit Governance- und Admin-Kontrollen; Claude Code CLI und Claude für Microsoft 365 gibt es dort im Early Access. Laut Ben&#x27;s Bites kann <strong>Claude Code jetzt Evals bauen</strong> und sich daran schrittweise verbessern (Hill Climbing). Außerdem warnte Anthropic, dass das offene Modell <strong>GLM-5.3</strong> von Z.ai funktionierende Cyberangriffe bauen kann und einfache Tricks dessen Schutzmechanismen umgingen. Parallel bestätigte die FTC eine Untersuchung zu Verbraucherrisiken bei OpenAI, Anthropic und anderen.</p></details><details class="news-item"><summary><div><span>05</span>Ideogram 4.5 editiert präzise, Runway zeigt Robotik-Modell Praxis-1</div></summary><p><strong>Ideogram 4.5</strong> ist ein neues Bild-Edit-Modell, das gezielte Änderungen vornimmt und den Rest des Bildes unverändert lässt — relevant für Retusche- und Edit-Workflows neben Nano Banana und GPT Image. <strong>Runway</strong> stellt mit <strong>Praxis-1</strong> ein Open-Weight „World Action Model“ vor, das Runways Video-Pretraining in Steuerung für echte Roboter übersetzt. Es läuft aktuell bei frühen Partnern auf deren eigener Hardware und soll in den kommenden Monaten öffentlich erscheinen. Zeigt, wie Runway seine Videomodelle über Kreativ-Tools hinaus als Weltmodelle positioniert.</p></details></section><footer><span>Zeitraum 01.10. 09:03 – 02.10. 10:02</span><a href="./">Archiv</a><div class="err">Nicht abrufbar: Julian Ivanov (Shorts check for YWafAtjSoVc failed: The read operation timed out)</div><div class="err">Nicht abrufbar: Julian Ivanov (Shorts check for yaFMhRYSmiY failed: The read operation timed out)</div></footer></main><script>
+document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){
+var pre=b.closest('.snippet').querySelector('pre');
+function done(){b.textContent='Kopiert';setTimeout(function(){b.textContent='Kopieren'},1600)}
+function fallback(){var t=document.createElement('textarea');t.value=pre.textContent;document.body.appendChild(t);
+t.select();document.execCommand('copy');t.remove();done()}
+if(navigator.clipboard){navigator.clipboard.writeText(pre.textContent).then(done,fallback)}else{fallback()}})});
+</script></body></html>
