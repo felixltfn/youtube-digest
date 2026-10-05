@@ -1,0 +1,156 @@
+<!DOCTYPE html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="robots" content="noindex, nofollow"><meta name="color-scheme" content="light"><title>KI-Videos · 05.10.2026</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap"><style>
+:root{--ink:#111;--grey:#6e6e6e;--light:#a8a8a8;--rule:#e6e6e6;--tint:#f5f5f3;--accent:#e4002b;
+--font:"Schibsted Grotesk","Helvetica Neue",Helvetica,Arial,sans-serif;--mono:ui-monospace,SFMono-Regular,Menlo,monospace}
+*{box-sizing:border-box}
+html{background:#fff}
+body{margin:0;color:var(--ink);font:16px/1.55 var(--font);-webkit-font-smoothing:antialiased}
+.stat b,.rank,.sec span{font-variant-numeric:tabular-nums}
+a{color:inherit}
+main{max-width:1120px;margin:0 auto;padding:24px 20px 96px}
+.top{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding-bottom:12px;
+border-bottom:3px solid var(--ink);font-size:13px;font-weight:700;letter-spacing:.02em}
+.top span{font-weight:500;color:var(--grey)}
+.top a{text-decoration:none}
+.hero{padding:48px 0 40px}
+.weekday{margin:0 0 6px;font-size:20px;font-weight:500;color:var(--grey)}
+.date{margin:0;font-size:clamp(84px,21vw,232px);font-weight:800;line-height:.82;letter-spacing:-.06em}
+.date i{font-style:normal;color:var(--accent)}
+.facts{display:grid;grid-template-columns:1fr;gap:28px;margin-top:44px;padding-top:16px;border-top:1px solid var(--rule)}
+.lede{margin:0;max-width:30ch;font-size:18px;line-height:1.4}
+.stats{display:grid;grid-template-columns:repeat(3,1fr)}
+.stat{padding:0 0 0 14px;border-left:1px solid var(--rule);text-decoration:none}
+.stat:first-child{padding-left:0;border-left:0}
+.stat b{display:block;font-size:44px;font-weight:700;line-height:1;letter-spacing:-.04em}
+.stat span{font-size:13px;color:var(--grey)}
+.stat.hot b{color:var(--accent)}
+section{margin-top:80px;scroll-margin-top:16px}
+.sec{display:flex;justify-content:space-between;align-items:baseline;padding-top:10px;border-top:3px solid var(--ink);
+margin:0;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.sec span{color:var(--grey);letter-spacing:0}
+.thumb{display:block;aspect-ratio:16/9;overflow:hidden;background:var(--tint)}
+.thumb img{display:block;width:100%;height:100%;object-fit:cover}
+.meta{font-size:13px;color:var(--grey)}
+.tag{display:inline-block;margin-left:8px;padding:0 6px;border:1px solid var(--ink);color:var(--ink);font-size:11px;
+font-weight:700;letter-spacing:.06em;text-transform:uppercase;vertical-align:1px}
+h3 a,h4 a{text-decoration:none}
+h3 a:hover,h4 a:hover{color:var(--accent)}
+.hot-item{display:grid;grid-template-columns:minmax(0,1fr);gap:18px;padding:36px 0 40px;border-bottom:1px solid var(--rule)}
+.rank{font-size:48px;font-weight:800;line-height:.9;letter-spacing:-.05em;color:var(--accent)}
+.hot-item h3{margin:6px 0 26px;font-size:clamp(24px,3.2vw,34px);font-weight:700;line-height:1.12;letter-spacing:-.025em}
+.label{margin:0 0 4px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.verdict{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;margin:0 0 18px}
+.verdict b{padding:3px 8px 2px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+border:1.5px solid var(--ink)}
+.verdict.watch b{background:var(--accent);border-color:var(--accent);color:#fff}
+.verdict span{font-size:14px;color:var(--grey)}
+.core{margin:0 0 20px;font-size:19px;font-weight:700;line-height:1.35;letter-spacing:-.01em}
+.points{margin:0;border-top:1px solid var(--ink)}
+.points div{display:grid;grid-template-columns:1fr;gap:2px;padding:10px 0;border-bottom:1px solid var(--rule)}
+.points dt{font-size:14px;font-weight:700;color:var(--accent)}
+.points dd{margin:0;font-size:15px;line-height:1.45}
+strong{font-weight:700}
+.versus{width:100%;margin-top:20px;border-collapse:collapse;font-size:15px}
+.versus th{padding:0 12px 6px 0;border-bottom:1px solid var(--ink);text-align:left;font-size:12px;font-weight:700;
+letter-spacing:.08em;text-transform:uppercase}
+.versus td{padding:10px 12px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top;line-height:1.4}
+.versus td:last-child{width:38%;font-weight:700}
+.reco{margin:16px 0 0;padding:12px 0 0;border-top:3px solid var(--ink);font-size:16px;line-height:1.45}
+.reco b{display:block;margin-bottom:2px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.snippet ul{margin:0 0 14px;padding-left:18px;font-size:15px;line-height:1.45}
+.snippet li{margin:4px 0}
+.snippet .skill{margin:0 0 10px;font-size:15px}
+.snippet ul{margin-bottom:0}
+.snippet .hint{margin:12px 0 0;font-size:13px;color:var(--grey)}
+.none{margin:8px 0 0;color:var(--grey)}
+.snippet{margin-top:24px;padding:18px 20px 20px;background:var(--tint)}
+.snippet-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:10px}
+.copy{border:0;background:none;padding:0;font:700 12px var(--font);letter-spacing:.08em;text-transform:uppercase;
+color:var(--accent);cursor:pointer}
+.snippet pre{margin:0;white-space:pre-wrap;word-break:break-word;font:13.5px/1.65 var(--mono);color:var(--ink)}
+.watch{display:inline-block;margin-top:26px;padding-bottom:2px;border-bottom:2px solid var(--ink);font-weight:700;
+text-decoration:none}
+.watch:hover{color:var(--accent);border-color:var(--accent)}
+.maybe-item{display:grid;grid-template-columns:112px 1fr;gap:16px;padding:20px 0;border-bottom:1px solid var(--rule)}
+.maybe-item h4{margin:2px 0 6px;font-size:17px;font-weight:700;line-height:1.25;letter-spacing:-.01em}
+.maybe-item p{margin:0;color:var(--grey);font-size:15px;line-height:1.45}
+.maybe-item .fazit{margin-top:8px;color:var(--ink)}
+.fazit b{color:var(--accent)}
+details summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;padding:18px 0;
+border-bottom:1px solid var(--rule);font-weight:500}
+details summary::-webkit-details-marker{display:none}
+details summary::after{content:"+";font-size:22px;line-height:1;font-weight:400}
+details[open] summary::after{content:"\2212"}
+details ul{list-style:none;margin:0;padding:0}
+details li{padding:12px 0;border-bottom:1px solid var(--rule);font-size:15px;line-height:1.4}
+details li a{text-decoration:none}
+details li a:hover{color:var(--accent)}
+details li span{color:var(--light)}
+.news-item{border-bottom:1px solid var(--rule)}
+.news-item summary{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:18px 0;
+border-bottom:0;font-size:19px;font-weight:700;line-height:1.3;letter-spacing:-.01em}
+.news-item summary span{color:var(--accent);font-variant-numeric:tabular-nums;margin-right:14px}
+.news-item summary::after{flex:none}
+.news-item p{margin:0 0 22px;max-width:68ch;font-size:15px;line-height:1.55}
+.empty{padding:40px 0;font-size:clamp(32px,5vw,48px);font-weight:700;letter-spacing:-.03em;line-height:1.05}
+.empty span{display:block;margin-top:12px;font-size:16px;font-weight:400;letter-spacing:0;color:var(--grey)}
+footer{margin-top:96px;padding-top:12px;border-top:3px solid var(--ink);font-size:13px;color:var(--grey);
+display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px}
+footer .err{flex-basis:100%;color:var(--accent)}
+.archive a{display:flex;justify-content:space-between;padding:18px 0;border-bottom:1px solid var(--rule);
+font-size:20px;font-weight:600;text-decoration:none}
+.archive a:hover{color:var(--accent)}
+.archive a span{color:var(--light);font-weight:400}
+@media (min-width:760px){
+.points div{grid-template-columns:170px 1fr;gap:0 16px}
+main{padding:32px 40px 120px}
+.hero{padding:72px 0 56px}
+.facts{grid-template-columns:5fr 7fr;align-items:end}
+.hot-item{grid-template-columns:88px minmax(0,1fr) minmax(0,400px);gap:0 32px;padding:44px 0 48px}
+.hot-item .thumb{grid-column:3;grid-row:1;align-self:start;position:sticky;top:24px}
+.hot-item .rank{grid-column:1;grid-row:1}
+.hot-item .content{grid-column:2;grid-row:1}
+.maybe-item{grid-template-columns:88px 200px minmax(0,1fr);gap:0 32px;padding:24px 0}
+.maybe-item .thumb{grid-column:2}
+.maybe-item .text{grid-column:3}
+details{margin-left:120px}}
+</style></head><body><main><div class="top"><a href="./">YouTube-Digest</a><span>Ausgabe 05.10.2026</span></div><header class="hero"><p class="weekday">Montag</p><h1 class="date">05<i>.</i>10<i>.</i></h1><div class="facts"><p class="lede">25 neue Videos seit Samstag, 11:02 Uhr.</p><div class="stats"><a class="stat hot" href="#hot"><b>4</b><span>relevant</span></a><a class="stat" href="#maybe"><b>2</b><span>vielleicht</span></a><a class="stat" href="#skipped"><b>19</b><span>übersprungen</span></a></div></div></header><section id="hot"><h2 class="sec">Lohnt sich<span>04</span></h2><article class="hot-item"><a class="thumb" href="https://www.youtube.com/watch?v=vegiAxjb4e8" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/vegiAxjb4e8/hqdefault.jpg" alt="" loading="lazy"></a><div class="rank">01</div><div class="content"><div class="meta">Roboverse · 03.10. · 10:45</div><h3><a href="https://www.youtube.com/watch?v=vegiAxjb4e8" target="_blank" rel="noopener">The Fastest Way to Make AI Videos in 2026</a></h3><div class="verdict read"><b>Lesen reicht</b><span>Die Regeln stehen alle hier.</span></div><p class="core">Higgsfield per MCP in Claude: Claude wählt Modell, schreibt den Prompt und baut Referenzen — 30-s-Dialogszenen mit Seedance 2.5 gehen in einem Rutsch.</p><dl class="points"><div><dt>Setup</dt><dd>Connector-URL von Higgsfields MCP-Seite → Claude → Customize → Connectors, einmalig.</dd></div><div><dt>Prompt zeigen</dt><dd>Immer „zeig mir den Prompt, bevor du ihn ausführst“ — korrigieren, bevor Credits weg sind.</dd></div><div><dt>Bild zuerst</dt><dd>Startframe in GPT Image 2 auf <strong>4K/high</strong> freigeben (Default ist low → unscharfes Video), dann animieren.</dd></div><div><dt>Storyboard-Ref</dt><dd>6 Panels in einem Bild als Referenz (nicht Startframe) → Produkt bleibt in allen Shots gleich; Grid verbieten, ≥12 s für 6 Cuts.</dd></div><div><dt>30-s-Dialog</dt><dd>Sitzpositionen fixieren, Props „bleiben offen“ festschreiben, Spielweise als Körperaktion statt Adjektiv.</dd></div></dl><div class="snippet"><div class="snippet-head"><p class="label">Skill-Update zum Kopieren</p><button class="copy" type="button">Kopieren</button></div><p class="skill">Neu für <strong>seedance-2-pro-director-v2</strong>:</p><ul><li>Bei mehreren Shots desselben Produkts: alle Panels als EIN Storyboard-Bild generieren und als Referenz (nicht als Startframe) übergeben; im Prompt ausdrücklich verbieten, dass das Grid/Split-Screen im Video erscheint.</li><li>Mindestlänge an Schnittzahl koppeln: ca. 2 s pro Cut (6 Cuts ≥ 12 s), sonst flackert es.</li><li>Bei Zerstörung/Effekten den Umfang begrenzen (z. B. „nur ein Dachsegment bricht“), sonst eskaliert das Modell zur Explosion und weicht vom Startframe ab.</li><li>Lange Dialogszenen (bis 30 s): Bildpositionen der Figuren explizit fixieren (sie links, er rechts, durchgehend), da das Modell sie sonst mittendrin tauscht.</li><li>Props, die ihren Zustand halten müssen, explizit festschreiben (z. B. „Kofferdeckel bleibt offen“), weil Props bei langen Generierungen zurückspringen.</li><li>Spielweise als physische Aktion schreiben, nie als Adjektiv (z. B. „sein Kiefer spannt sich an“ statt „er ist wütend“).</li></ul><p class="hint">„Kopieren“ holt den fertigen Prompt für claude.ai, der den skill-updater startet.</p><pre hidden>Nutze den Skill „skill-updater“, um meinen Skill „seedance-2-pro-director-v2“ zu aktualisieren.
+
+Quelle: YouTube-Video „The Fastest Way to Make AI Videos in 2026“ (Roboverse)
+https://www.youtube.com/watch?v=vegiAxjb4e8
+
+Neue Erkenntnisse aus dem Video:
+- Bei mehreren Shots desselben Produkts: alle Panels als EIN Storyboard-Bild generieren und als Referenz (nicht als Startframe) übergeben; im Prompt ausdrücklich verbieten, dass das Grid/Split-Screen im Video erscheint.
+- Mindestlänge an Schnittzahl koppeln: ca. 2 s pro Cut (6 Cuts ≥ 12 s), sonst flackert es.
+- Bei Zerstörung/Effekten den Umfang begrenzen (z. B. „nur ein Dachsegment bricht“), sonst eskaliert das Modell zur Explosion und weicht vom Startframe ab.
+- Lange Dialogszenen (bis 30 s): Bildpositionen der Figuren explizit fixieren (sie links, er rechts, durchgehend), da das Modell sie sonst mittendrin tauscht.
+- Props, die ihren Zustand halten müssen, explizit festschreiben (z. B. „Kofferdeckel bleibt offen“), weil Props bei langen Generierungen zurückspringen.
+- Spielweise als physische Aktion schreiben, nie als Adjektiv (z. B. „sein Kiefer spannt sich an“ statt „er ist wütend“).
+
+Vorgehen:
+1. Lies die aktuelle Version von „seedance-2-pro-director-v2“ vollständig.
+2. Prüfe jeden Punkt: schon abgedeckt, widerspricht er bestehenden Regeln, oder ist er wirklich neu?
+3. Übernimm nur die neuen, stimmigen Punkte an der passenden Stelle, knapp und im Stil des Skills.
+4. Zeig mir zuerst kurz, was du übernimmst und was du verwirfst (mit Grund), dann bau die neue Version.</pre></div><a class="watch" href="https://www.youtube.com/watch?v=vegiAxjb4e8" target="_blank" rel="noopener">Auf YouTube ansehen →</a></div></article><article class="hot-item"><a class="thumb" href="https://www.youtube.com/watch?v=YW9c8gV5Otc" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/YW9c8gV5Otc/hqdefault.jpg" alt="" loading="lazy"></a><div class="rank">02</div><div class="content"><div class="meta">Roboverse · 04.10. · 11:42</div><h3><a href="https://www.youtube.com/watch?v=YW9c8gV5Otc" target="_blank" rel="noopener">How to Use Google Flow to Create Cinematic AI Videos (Step by Step)</a></h3><div class="verdict watch"><b>▶ Ansehen</b><span>Der Omni-Flash-vs.-Veo-Vergleich ist rein visuell.</span></div><p class="core">In Google Flow entsteht der Kino-Look aus zwei Referenzen (Gesicht + leere Location) plus Einzel-Storyboard — Veo 3.1 liefert dabei konstanter als Omni Flash.</p><dl class="points"><div><dt>Charakter</dt><dd>Nicht das Character-Tool aus Text — Nano Banana Pro mit echtem Foto, 3 Panels, flach und schattenlos auf Grau.</dd></div><div><dt>Location-Lock</dt><dd>Ein leeres Weitwinkelbild der Location, <strong>ohne Person</strong>, sonst zieht das Modell die falsche Version von dir.</dd></div><div><dt>Storyboard</dt><dd>6 Frames einzeln in voller Auflösung, nicht als Kontaktsheet — sonst taugen sie nicht als Startframe.</dd></div><div><dt>First/Last Frame</dt><dd>Endbild mit Startbild als Referenz: alles identisch, nur Tageszeit und Position ändern.</dd></div><div><dt>Video-Edit</dt><dd>Omni 1.1 Flash editiert echtes Footage (z. B. Schnee ab Mitte), kommt aber nur in 720p zurück.</dd></div></dl><table class="versus"><thead><tr><th>Anwendungsfall</th><th>Besser</th></tr></thead><tbody><tr><td>Gesicht/Identität</td><td>Veo 3.1</td></tr><tr><td>Physik (Tampern)</td><td>Omni Flash</td></tr><tr><td>Extraktion</td><td>Gleichauf</td></tr><tr><td>Kamerafahrt</td><td>Veo 3.1</td></tr><tr><td>Cliplänge</td><td>Omni Flash</td></tr></tbody></table><p class="reco"><b>Empfehlung</b>Veo 3.1 als Standard für konstantere Shots mit weniger Glitches; Omni Flash, wenn du 4–10 s frei wählen willst oder Footage editierst.</p><div class="snippet"><div class="snippet-head"><p class="label">Skill-Update zum Kopieren</p><button class="copy" type="button">Kopieren</button></div><p class="skill">Neu für <strong>image-prompt-helper-v5</strong>:</p><ul><li>Charakter-Sheet für reale Personen: echtes Foto anhängen und im Prompt als einzige Identitätsquelle deklarieren; Gesicht zwischen Panels unveränderlich, nur Framing, Körperwinkel und Wardrobe ändern sich.</li><li>Sheet-Layout: drei Panels in einem 16:9-Frame — enges Close-up, Ganzkörper frontal, Ganzkörper von schräg hinten — flach und schattenlos auf grauem Hintergrund, damit kein Licht in spätere Generierungen übernommen wird.</li><li>Location-Referenz immer menschenleer generieren, damit beim Kombinieren mit dem Charakter-Sheet keine zweite Version der Person im Bild landet.</li><li>Storyboard-Frames einzeln in voller Auflösung generieren statt als Kontaktsheet, wenn sie später als Startframes dienen; der Prompt beschreibt dann nur die Handlung, nicht die Szene.</li><li>Last-Frame aus First-Frame ableiten: First-Frame als Referenz anhängen, festschreiben, dass Raum und Kamera identisch bleiben, und nur die gewünschten Änderungen (Tageszeit, Figurenposition) nennen.</li></ul><p class="hint">„Kopieren“ holt den fertigen Prompt für claude.ai, der den skill-updater startet.</p><pre hidden>Nutze den Skill „skill-updater“, um meinen Skill „image-prompt-helper-v5“ zu aktualisieren.
+
+Quelle: YouTube-Video „How to Use Google Flow to Create Cinematic AI Videos (Step by Step)“ (Roboverse)
+https://www.youtube.com/watch?v=YW9c8gV5Otc
+
+Neue Erkenntnisse aus dem Video:
+- Charakter-Sheet für reale Personen: echtes Foto anhängen und im Prompt als einzige Identitätsquelle deklarieren; Gesicht zwischen Panels unveränderlich, nur Framing, Körperwinkel und Wardrobe ändern sich.
+- Sheet-Layout: drei Panels in einem 16:9-Frame — enges Close-up, Ganzkörper frontal, Ganzkörper von schräg hinten — flach und schattenlos auf grauem Hintergrund, damit kein Licht in spätere Generierungen übernommen wird.
+- Location-Referenz immer menschenleer generieren, damit beim Kombinieren mit dem Charakter-Sheet keine zweite Version der Person im Bild landet.
+- Storyboard-Frames einzeln in voller Auflösung generieren statt als Kontaktsheet, wenn sie später als Startframes dienen; der Prompt beschreibt dann nur die Handlung, nicht die Szene.
+- Last-Frame aus First-Frame ableiten: First-Frame als Referenz anhängen, festschreiben, dass Raum und Kamera identisch bleiben, und nur die gewünschten Änderungen (Tageszeit, Figurenposition) nennen.
+
+Vorgehen:
+1. Lies die aktuelle Version von „image-prompt-helper-v5“ vollständig.
+2. Prüfe jeden Punkt: schon abgedeckt, widerspricht er bestehenden Regeln, oder ist er wirklich neu?
+3. Übernimm nur die neuen, stimmigen Punkte an der passenden Stelle, knapp und im Stil des Skills.
+4. Zeig mir zuerst kurz, was du übernimmst und was du verwirfst (mit Grund), dann bau die neue Version.</pre></div><a class="watch" href="https://www.youtube.com/watch?v=YW9c8gV5Otc" target="_blank" rel="noopener">Auf YouTube ansehen →</a></div></article><article class="hot-item"><a class="thumb" href="https://www.youtube.com/watch?v=-3SR-216Um4" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/-3SR-216Um4/hqdefault.jpg" alt="" loading="lazy"></a><div class="rank">03</div><div class="content"><div class="meta">DIY Smart Code · 03.10. · 10:55</div><h3><a href="https://www.youtube.com/watch?v=-3SR-216Um4" target="_blank" rel="noopener">Claude September 2026 Recap: What You Need to Know!</a></h3><div class="verdict read"><b>Lesen reicht</b><span>Reiner News-Überblick, alles steht hier.</span></div><p class="core">Sonnet 5.5 auf Medium als Standard, Opus 5.5 für lange Migrationen und Audits — Effort-Wechsel bricht bei den 5.5-Modellen den Cache nicht mehr.</p><dl class="points"><div><dt>Effort &amp; Cache</dt><dd>Auf Opus/Sonnet 5.5 und Fable 5.1 (Abo/API) bleibt der Cache beim Effort-Wechsel; <strong>Modellwechsel</strong> startet immer kalt, auch Opus-Plan.</dd></div><div><dt>/usage</dt><dd>Zeigt Cache-Hit-Rate und den wahrscheinlichen Grund des letzten Miss.</dd></div><div><dt>Claude-App</dt><dd>Cowork und Chat seit 16.9. vereint, dazu Claude Docs und Slides (Beta, erst Pro/Max).</dd></div><div><dt>Code-Projects</dt><dd>Koordinator teilt ein Ziel in Threads, jeder eine Cloud-Session mit eigenem Branch und geteiltem Projekt-Memory.</dd></div><div><dt>Marketplace</dt><dd>2.000+ Connectors/Plugins, Plugin-Portal für MCP-Server oder Skill-Repos, MCP 2.0 mit Apps im Chat.</dd></div></dl><a class="watch" href="https://www.youtube.com/watch?v=-3SR-216Um4" target="_blank" rel="noopener">Auf YouTube ansehen →</a></div></article><article class="hot-item"><a class="thumb" href="https://www.youtube.com/watch?v=lHmZoRHMZyM" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/lHmZoRHMZyM/hqdefault.jpg" alt="" loading="lazy"></a><div class="rank">04</div><div class="content"><div class="meta">AI Search · 04.10. · 40:29</div><h3><a href="https://www.youtube.com/watch?v=lHmZoRHMZyM" target="_blank" rel="noopener">Gemini 4, GPT 6.1, Dots, Claude Sonnet 5.5, Ideogram 4.5, Flux 3: AI NEWS</a></h3><div class="verdict read"><b>Lesen reicht</b><span>Die Tool-News stehen hier kompakt.</span></div><p class="core">Zwei neue Bildmodelle mit Bounding-Box-Komposition (Ideogram 4.5, FLUX 3) und ElevenLabs V4 mit Regie-Tags sind die kreativ relevanten Neuheiten der Woche.</p><dl class="points"><div><dt>Ideogram 4.5</dt><dd>Präzisester Editor: nach vielen Edits pixelgenau stabil, wo GPT Image und Nano Banana verrauschen; Open Source angekündigt.</dd></div><div><dt>FLUX 3 Image</dt><dd>Boxen für Bildbereiche, bis 10 Referenzbilder, Text-Edits, Upscale, Kolorieren.</dd></div><div><dt>ElevenLabs V4</dt><dd>Meta-Tags im Skript steuern Tonfall, Regie und Soundeffekte; laut Leaderboard bestes TTS.</dd></div><div><dt>Inspatio World 1.5</dt><dd>Bild/Video plus Kamerapfad → begehbare Szene inkl. Bullet-Time.</dd></div><div><dt>Comfy Agent</dt><dd>Baut und repariert ComfyUI-Workflows per Prompt; erst Cloud, Desktop in Wochen.</dd></div></dl><a class="watch" href="https://www.youtube.com/watch?v=lHmZoRHMZyM" target="_blank" rel="noopener">Auf YouTube ansehen →</a></div></article></section><section id="maybe"><h2 class="sec">Vielleicht<span>02</span></h2><article class="maybe-item"><a class="thumb" href="https://www.youtube.com/watch?v=vSNHimXVkvo" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/vSNHimXVkvo/mqdefault.jpg" alt="" loading="lazy"></a><div class="text"><div class="meta">Julian Ivanov · 04.10.</div><h4><a href="https://www.youtube.com/watch?v=vSNHimXVkvo" target="_blank" rel="noopener">OpenClaw 2.0 oder Hermes: Welchen KI-Agent solltest du wählen?</a></h4><p>OpenClaw 2.0 und Hermes Agent im Vergleich: Desktop-App, Gedächtnis, eigene Skills, Agent-Swarms, Rechte und Mehrbenutzer-Modus.</p><p class="fazit"><b>Fazit:</b> Für <strong>80–90 %</strong> ist Hermes die bessere Wahl; OpenClaw nur, wenn ein Team sich einen Agenten teilen soll.</p></div></article><article class="maybe-item"><a class="thumb" href="https://www.youtube.com/watch?v=DFlELTiSPk8" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/DFlELTiSPk8/mqdefault.jpg" alt="" loading="lazy"></a><div class="text"><div class="meta">Nate Herk | AI Automation · 03.10.</div><h4><a href="https://www.youtube.com/watch?v=DFlELTiSPk8" target="_blank" rel="noopener">Every Codex Concept Explained for Non-Coders</a></h4><p>18 Grundbegriffe von OpenAI Codex für Nicht-Coder: Projekte, AGENTS.md, Skills, Plugins, Subagents bis Voice Mode.</p><p class="fazit"><b>Fazit:</b> Codex funktioniert inzwischen wie Claude Code — inklusive Goals, Scheduled Tasks und Voice Mode, der mehrere Threads parallel steuert.</p></div></article></section><section id="skipped"><h2 class="sec">Übersprungen<span>19</span></h2><details><summary>19 Videos passen nicht zu deinem Profil</summary><ul><li><a href="https://www.youtube.com/watch?v=vfPXVgkmbUQ" target="_blank" rel="noopener">OpenClaw oder Hermes, welchen solltest du nehmen? #openclaw #hermesagent #aiagents</a> <span>— Julian Ivanov</span></li><li><a href="https://www.youtube.com/watch?v=5WL6N0d7Byw" target="_blank" rel="noopener">AI Production: Entire Workflow Without Touching Keyboard</a> <span>— AI for Real Life: Redefining Filmmaking</span></li><li><a href="https://www.youtube.com/watch?v=HIbhGFssZL8" target="_blank" rel="noopener">Does switching Claude Code effort break your cache? 📉 #claudecode</a> <span>— DIY Smart Code</span></li><li><a href="https://www.youtube.com/watch?v=LfwbwZZbpRI" target="_blank" rel="noopener">Is the new Claude app a game changer or a mess? #claude #ai #tech</a> <span>— DIY Smart Code</span></li><li><a href="https://www.youtube.com/watch?v=0DchrGxoS6o" target="_blank" rel="noopener">Protect your enterprise from AI-driven threats 🛡️ #EnterpriseAI #Claude #AISecurity</a> <span>— DIY Smart Code</span></li><li><a href="https://www.youtube.com/watch?v=CbzgUAN_lDE" target="_blank" rel="noopener">Which Claude Model Should You Use Now? #claude #anthropic #ai</a> <span>— DIY Smart Code</span></li><li><a href="https://www.youtube.com/watch?v=JqBQgq9tLu0" target="_blank" rel="noopener">The Only 3 Inspo Sites You Need for AI Design</a> <span>— Adrien | AI Designer</span></li><li><a href="https://www.youtube.com/watch?v=cV_12s2_hMo" target="_blank" rel="noopener">OpenClaw vs Hermes: Unterschied einfach erklärt #openclaw #hermesagent #aiagents</a> <span>— Julian Ivanov</span></li><li><a href="https://www.youtube.com/watch?v=68gGNYJcbkg" target="_blank" rel="noopener">My AI filmmaking toolkit: C-Dance, ChatGPT &amp; Suno</a> <span>— AI for Real Life: Redefining Filmmaking</span></li><li><a href="https://www.youtube.com/watch?v=1ID_VcwzIo8" target="_blank" rel="noopener">Das neue ChatGPT ist da: DAS ändert sich jetzt für dich! Alle 20+ Updates | KI-NEWS</a> <span>— Everlast AI</span></li><li><a href="https://www.youtube.com/watch?v=WDvhtkAEowU" target="_blank" rel="noopener">OpenAI DOTs: Your new autonomous employee #ai #innovation #openai</a> <span>— DIY Smart Code</span></li><li><a href="https://www.youtube.com/watch?v=I-lyw_MhqSE" target="_blank" rel="noopener">GPT-6 Astra Builds 60-Second Mini-Drama! 🤯</a> <span>— AI for Real Life: Redefining Filmmaking</span></li><li><a href="https://www.youtube.com/watch?v=EP5jfyCnPu8" target="_blank" rel="noopener">Introducing the Higgsfield AI Creator Partnership Program</a> <span>— Higgsfield AI</span></li><li><a href="https://www.youtube.com/watch?v=vmgplwkDfCI" target="_blank" rel="noopener">INSANE component for your site</a> <span>— Adrien | AI Designer</span></li><li><a href="https://www.youtube.com/watch?v=4mcMZKMwjcU" target="_blank" rel="noopener">3 Dinge um KI-Überblick zu halten!</a> <span>— Christoph Magnussen</span></li><li><a href="https://www.youtube.com/watch?v=wSZOGKzo3qE" target="_blank" rel="noopener">Turn Any Screenshot into a Video with AI</a> <span>— Jack Roberts</span></li><li><a href="https://www.youtube.com/watch?v=gVPZU1btFA8" target="_blank" rel="noopener">GPT-6 Astra Changed Meta Ads Forever!</a> <span>— Higgsfield AI</span></li><li><a href="https://www.youtube.com/watch?v=NbEplE9WT7g" target="_blank" rel="noopener">Everything you need to know about Gemini 4 Argon #Gemini4Argon #Shorts</a> <span>— DIY Smart Code</span></li><li><a href="https://www.youtube.com/watch?v=nNTosOaz44A" target="_blank" rel="noopener">AI Ignites My Creative Passion &amp; Films</a> <span>— AI for Real Life: Redefining Filmmaking</span></li></ul></details></section><section id="newsletter"><h2 class="sec">Newsletter<span>04</span></h2><details class="news-item"><summary><div><span>01</span>Suno Speech erzeugt Sprache und Musik in einem Durchgang</div></summary><p>Suno hat <strong>Suno Speech</strong> vorgestellt: Aus einem Text entstehen gesprochenes Audio und ein eigens komponierter Musik-Score zusammen, statt beides getrennt zu generieren und nachträglich zu mischen. Die Beta ist für alle offen. Für Voiceover in Spots, Trailern oder AI-Kurzfilmen könnte das einen Arbeitsschritt sparen, weil Stimme und Musikbett direkt aufeinander abgestimmt herauskommen. Die Neuron listet es unter den Tools zum Ausprobieren; Details zu Stimmen, Sprachen oder Länge nennt der Newsletter nicht.</p></details><details class="news-item"><summary><div><span>02</span>FLUX 3 Image: Komposition per Bounding-Box steuern</div></summary><p>Black Forest Labs hat <strong>FLUX 3 Image</strong> veröffentlicht. Der Kern laut Newsletter: Du ziehst Boxen auf die Leinwand und legst fest, welches Element wo erscheinen soll — Bildaufbau also gezielt statt per Zufall. Damit reiht sich FLUX 3 neben Ideogram ein, das Bereichs-Boxen ebenfalls anbietet. Für Key Visuals, Poster und Layouts mit festen Positionen ist das relevant, weil sich Kompositionen reproduzierbar planen lassen. Weitere Angaben macht die Mail nicht.</p></details><details class="news-item"><summary><div><span>03</span>Karpathy: vier Wege, KI-Erklärungen verständlicher zu machen</div></summary><p>Andrej Karpathy teilt vier Tricks, wenn eine KI-Antwort nicht ankommt. Erstens: einfachere Sprache nach dem Luftfahrt-Standard <strong>ASD-STE100</strong> anfordern, gern „80 % des Weges dorthin“, damit es lesbar bleibt. Zweitens: ein Diagramm statt Fließtext verlangen. Drittens: die Erklärung als interaktive <strong>HTML-Seite</strong> mit Animationen bauen lassen. Viertens: ein narriertes Erklärvideo im 3Blue1Brown-Stil, vertont über ElevenLabs. Die Neuron rät, zuerst das Diagramm zu probieren und gegen das Original zu prüfen — der echte Test sei, ob man die Idee danach selbst erklären kann.</p></details><details class="news-item"><summary><div><span>04</span>OpenAI Dots: Agent mit eigenem Cloud-Rechner und Browser</div></summary><p>Auf dem DevDay hat OpenAI <strong>Dots</strong> gestartet: einen persönlichen Agenten mit eigenem Cloud-Computer und Browser, der im Hintergrund weiterarbeitet. Er ist Teil eines größeren Pakets von DevDay-Ankündigungen. Parallel bauen Meta mit <strong>Muse</strong> und Manus mit <strong>Manus 2.0</strong> ihre Personal-Agent-Angebote aus; Muse for Small Business arbeitet über verbundene Business-Apps und fragt vor dem Senden, Veröffentlichen oder Ausgeben nach Freigabe. Der Trend der Woche: Agenten, die eigenständig an Aufgaben dranbleiben, statt nur auf Prompts zu antworten.</p></details></section><footer><span>Zeitraum 03.10. 11:02 – 05.10. 11:45</span><a href="./">Archiv</a></footer></main><script>
+document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){
+var pre=b.closest('.snippet').querySelector('pre');
+function done(){b.textContent='Kopiert';setTimeout(function(){b.textContent='Kopieren'},1600)}
+function fallback(){var t=document.createElement('textarea');t.value=pre.textContent;document.body.appendChild(t);
+t.select();document.execCommand('copy');t.remove();done()}
+if(navigator.clipboard){navigator.clipboard.writeText(pre.textContent).then(done,fallback)}else{fallback()}})});
+</script></body></html>
