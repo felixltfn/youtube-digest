@@ -1,0 +1,140 @@
+<!DOCTYPE html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="robots" content="noindex, nofollow"><meta name="color-scheme" content="light"><title>KI-Videos · 06.10.2026</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap"><style>
+:root{--ink:#111;--grey:#6e6e6e;--light:#a8a8a8;--rule:#e6e6e6;--tint:#f5f5f3;--accent:#e4002b;
+--font:"Schibsted Grotesk","Helvetica Neue",Helvetica,Arial,sans-serif;--mono:ui-monospace,SFMono-Regular,Menlo,monospace}
+*{box-sizing:border-box}
+html{background:#fff}
+body{margin:0;color:var(--ink);font:16px/1.55 var(--font);-webkit-font-smoothing:antialiased}
+.stat b,.rank,.sec span{font-variant-numeric:tabular-nums}
+a{color:inherit}
+main{max-width:1120px;margin:0 auto;padding:24px 20px 96px}
+.top{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding-bottom:12px;
+border-bottom:3px solid var(--ink);font-size:13px;font-weight:700;letter-spacing:.02em}
+.top span{font-weight:500;color:var(--grey)}
+.top a{text-decoration:none}
+.hero{padding:48px 0 40px}
+.weekday{margin:0 0 6px;font-size:20px;font-weight:500;color:var(--grey)}
+.date{margin:0;font-size:clamp(84px,21vw,232px);font-weight:800;line-height:.82;letter-spacing:-.06em}
+.date i{font-style:normal;color:var(--accent)}
+.facts{display:grid;grid-template-columns:1fr;gap:28px;margin-top:44px;padding-top:16px;border-top:1px solid var(--rule)}
+.lede{margin:0;max-width:30ch;font-size:18px;line-height:1.4}
+.stats{display:grid;grid-template-columns:repeat(3,1fr)}
+.stat{padding:0 0 0 14px;border-left:1px solid var(--rule);text-decoration:none}
+.stat:first-child{padding-left:0;border-left:0}
+.stat b{display:block;font-size:44px;font-weight:700;line-height:1;letter-spacing:-.04em}
+.stat span{font-size:13px;color:var(--grey)}
+.stat.hot b{color:var(--accent)}
+section{margin-top:80px;scroll-margin-top:16px}
+.sec{display:flex;justify-content:space-between;align-items:baseline;padding-top:10px;border-top:3px solid var(--ink);
+margin:0;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.sec span{color:var(--grey);letter-spacing:0}
+.thumb{display:block;aspect-ratio:16/9;overflow:hidden;background:var(--tint)}
+.thumb img{display:block;width:100%;height:100%;object-fit:cover}
+.meta{font-size:13px;color:var(--grey)}
+.tag{display:inline-block;margin-left:8px;padding:0 6px;border:1px solid var(--ink);color:var(--ink);font-size:11px;
+font-weight:700;letter-spacing:.06em;text-transform:uppercase;vertical-align:1px}
+h3 a,h4 a{text-decoration:none}
+h3 a:hover,h4 a:hover{color:var(--accent)}
+.hot-item{display:grid;grid-template-columns:minmax(0,1fr);gap:18px;padding:36px 0 40px;border-bottom:1px solid var(--rule)}
+.rank{font-size:48px;font-weight:800;line-height:.9;letter-spacing:-.05em;color:var(--accent)}
+.hot-item h3{margin:6px 0 26px;font-size:clamp(24px,3.2vw,34px);font-weight:700;line-height:1.12;letter-spacing:-.025em}
+.label{margin:0 0 4px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.verdict{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;margin:0 0 18px}
+.verdict b{padding:3px 8px 2px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+border:1.5px solid var(--ink)}
+.verdict.watch b{background:var(--accent);border-color:var(--accent);color:#fff}
+.verdict span{font-size:14px;color:var(--grey)}
+.core{margin:0 0 20px;font-size:19px;font-weight:700;line-height:1.35;letter-spacing:-.01em}
+.points{margin:0;border-top:1px solid var(--ink)}
+.points div{display:grid;grid-template-columns:1fr;gap:2px;padding:10px 0;border-bottom:1px solid var(--rule)}
+.points dt{font-size:14px;font-weight:700;color:var(--accent)}
+.points dd{margin:0;font-size:15px;line-height:1.45}
+strong{font-weight:700}
+.versus{width:100%;margin-top:20px;border-collapse:collapse;font-size:15px}
+.versus th{padding:0 12px 6px 0;border-bottom:1px solid var(--ink);text-align:left;font-size:12px;font-weight:700;
+letter-spacing:.08em;text-transform:uppercase}
+.versus td{padding:10px 12px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top;line-height:1.4}
+.versus td:last-child{width:38%;font-weight:700}
+.reco{margin:16px 0 0;padding:12px 0 0;border-top:3px solid var(--ink);font-size:16px;line-height:1.45}
+.reco b{display:block;margin-bottom:2px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.snippet ul{margin:0 0 14px;padding-left:18px;font-size:15px;line-height:1.45}
+.snippet li{margin:4px 0}
+.snippet .skill{margin:0 0 10px;font-size:15px}
+.snippet ul{margin-bottom:0}
+.snippet .hint{margin:12px 0 0;font-size:13px;color:var(--grey)}
+.none{margin:8px 0 0;color:var(--grey)}
+.snippet{margin-top:24px;padding:18px 20px 20px;background:var(--tint)}
+.snippet-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:10px}
+.copy{border:0;background:none;padding:0;font:700 12px var(--font);letter-spacing:.08em;text-transform:uppercase;
+color:var(--accent);cursor:pointer}
+.snippet pre{margin:0;white-space:pre-wrap;word-break:break-word;font:13.5px/1.65 var(--mono);color:var(--ink)}
+.watch{display:inline-block;margin-top:26px;padding-bottom:2px;border-bottom:2px solid var(--ink);font-weight:700;
+text-decoration:none}
+.watch:hover{color:var(--accent);border-color:var(--accent)}
+.maybe-item{display:grid;grid-template-columns:112px 1fr;gap:16px;padding:20px 0;border-bottom:1px solid var(--rule)}
+.maybe-item h4{margin:2px 0 6px;font-size:17px;font-weight:700;line-height:1.25;letter-spacing:-.01em}
+.maybe-item p{margin:0;color:var(--grey);font-size:15px;line-height:1.45}
+.maybe-item .fazit{margin-top:8px;color:var(--ink)}
+.fazit b{color:var(--accent)}
+details summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;padding:18px 0;
+border-bottom:1px solid var(--rule);font-weight:500}
+details summary::-webkit-details-marker{display:none}
+details summary::after{content:"+";font-size:22px;line-height:1;font-weight:400}
+details[open] summary::after{content:"\2212"}
+details ul{list-style:none;margin:0;padding:0}
+details li{padding:12px 0;border-bottom:1px solid var(--rule);font-size:15px;line-height:1.4}
+details li a{text-decoration:none}
+details li a:hover{color:var(--accent)}
+details li span{color:var(--light)}
+.news-item{border-bottom:1px solid var(--rule)}
+.news-item summary{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:18px 0;
+border-bottom:0;font-size:19px;font-weight:700;line-height:1.3;letter-spacing:-.01em}
+.news-item summary span{color:var(--accent);font-variant-numeric:tabular-nums;margin-right:14px}
+.news-item summary::after{flex:none}
+.news-item p{margin:0 0 22px;max-width:68ch;font-size:15px;line-height:1.55}
+.empty{padding:40px 0;font-size:clamp(32px,5vw,48px);font-weight:700;letter-spacing:-.03em;line-height:1.05}
+.empty span{display:block;margin-top:12px;font-size:16px;font-weight:400;letter-spacing:0;color:var(--grey)}
+footer{margin-top:96px;padding-top:12px;border-top:3px solid var(--ink);font-size:13px;color:var(--grey);
+display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px}
+footer .err{flex-basis:100%;color:var(--accent)}
+.archive a{display:flex;justify-content:space-between;padding:18px 0;border-bottom:1px solid var(--rule);
+font-size:20px;font-weight:600;text-decoration:none}
+.archive a:hover{color:var(--accent)}
+.archive a span{color:var(--light);font-weight:400}
+@media (min-width:760px){
+.points div{grid-template-columns:170px 1fr;gap:0 16px}
+main{padding:32px 40px 120px}
+.hero{padding:72px 0 56px}
+.facts{grid-template-columns:5fr 7fr;align-items:end}
+.hot-item{grid-template-columns:88px minmax(0,1fr) minmax(0,400px);gap:0 32px;padding:44px 0 48px}
+.hot-item .thumb{grid-column:3;grid-row:1;align-self:start;position:sticky;top:24px}
+.hot-item .rank{grid-column:1;grid-row:1}
+.hot-item .content{grid-column:2;grid-row:1}
+.maybe-item{grid-template-columns:88px 200px minmax(0,1fr);gap:0 32px;padding:24px 0}
+.maybe-item .thumb{grid-column:2}
+.maybe-item .text{grid-column:3}
+details{margin-left:120px}}
+</style></head><body><main><div class="top"><a href="./">YouTube-Digest</a><span>Ausgabe 06.10.2026</span></div><header class="hero"><p class="weekday">Dienstag</p><h1 class="date">06<i>.</i>10<i>.</i></h1><div class="facts"><p class="lede">13 neue Videos seit Montag, 11:45 Uhr.</p><div class="stats"><a class="stat hot" href="#hot"><b>4</b><span>relevant</span></a><a class="stat" href="#maybe"><b>3</b><span>vielleicht</span></a><a class="stat" href="#skipped"><b>6</b><span>übersprungen</span></a></div></div></header><section id="hot"><h2 class="sec">Lohnt sich<span>04</span></h2><article class="hot-item"><a class="thumb" href="https://www.youtube.com/watch?v=BKDrtzJktO0" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/BKDrtzJktO0/hqdefault.jpg" alt="" loading="lazy"></a><div class="rank">01</div><div class="content"><div class="meta">Dan Kieft · 05.10. · 23:36</div><h3><a href="https://www.youtube.com/watch?v=BKDrtzJktO0" target="_blank" rel="noopener">Suno v6 + Seedance 2.5 is NUTS at Making AI Music Videos</a></h3><div class="verdict watch"><b>▶ Ansehen</b><span>Kamerawinkel und Schnitt muss man sehen.</span></div><p class="core">Musikvideos mit Seedance 2.5 leben von <strong>schnellen Winkelwechseln</strong> und sauberem Lip-Sync auf isolierten Vocal-Stems.</p><dl class="points"><div><dt>Charakter-Workflow</dt><dd>Erst Gesicht, dann Outfit (Pinterest-Referenz), dann Character Sheet aus Close-up + Ganzkörper kombiniert.</dd></div><div><dt>Sets</dt><dd>Einfache Locations Seedance erfinden lassen, komplexe vorher als Bild bauen und referenzieren.</dd></div><div><dt>15 Winkel</dt><dd>Ein Prompt mit „Kamera schneidet jede Sekunde auf einen völlig anderen Winkel“ liefert 15 Hardcuts in einem Clip.</dd></div><div><dt>Lip-Sync</dt><dd>Audio als <strong>MP4 mit schwarzem Bild</strong> statt MP3 hochladen; pro Figur nur den Lead-Vocal-Stem aus Suno nutzen.</dd></div><div><dt>Genjutsu</dt><dd>Figur oder Hintergrund tauschen, Kamerawinkel und Bewegung bleiben erhalten.</dd></div></dl><div class="snippet"><div class="snippet-head"><p class="label">Skill-Update zum Kopieren</p><button class="copy" type="button">Kopieren</button></div><p class="skill">Neu für <strong>seedance-2-pro-director-v2</strong>:</p><ul><li>Für Lip-Sync die Audio-Referenz als MP4 mit schwarzem Video statt als MP3 übergeben — synchronisiert zuverlässiger.</li><li>Bei mehreren Sängern/Ad-Libs pro Figur nur den isolierten Vocal-Stem als Referenz nutzen, sonst lippensynchronisiert die Figur auf fremde Stimmen.</li><li>Multi-Angle-Sequenz: „music video insert sequence, 15 hard-cut angles … the camera cuts to a completely different angle every second, each shot unique, Hollywood-style cinematic angles“ plus Character Sheet (image 1) und Location (image 2).</li><li>Character Sheet aus zwei Referenzen bauen: Close-up für Gesichtsdetails + Ganzkörper für Outfit, nicht nur das Ganzkörperbild.</li><li>Bei schnellen Winkelwechseln einen visuellen Anker (Figur in Bildmitte) über alle Cuts halten, damit das Auge nicht springt.</li><li>Winkel explizit benennen: low angle, high angle, Dutch angle, ground level, overhead/bird&#x27;s eye, over-the-shoulder, side profile; Bewegungen: zoom out, crash zoom in, handheld, tracking, orbit.</li></ul><p class="hint">„Kopieren“ holt den fertigen Prompt für claude.ai, der den skill-updater startet.</p><pre hidden>Nutze den Skill „skill-updater“, um meinen Skill „seedance-2-pro-director-v2“ zu aktualisieren.
+
+Quelle: YouTube-Video „Suno v6 + Seedance 2.5 is NUTS at Making AI Music Videos“ (Dan Kieft)
+https://www.youtube.com/watch?v=BKDrtzJktO0
+
+Neue Erkenntnisse aus dem Video:
+- Für Lip-Sync die Audio-Referenz als MP4 mit schwarzem Video statt als MP3 übergeben — synchronisiert zuverlässiger.
+- Bei mehreren Sängern/Ad-Libs pro Figur nur den isolierten Vocal-Stem als Referenz nutzen, sonst lippensynchronisiert die Figur auf fremde Stimmen.
+- Multi-Angle-Sequenz: „music video insert sequence, 15 hard-cut angles … the camera cuts to a completely different angle every second, each shot unique, Hollywood-style cinematic angles“ plus Character Sheet (image 1) und Location (image 2).
+- Character Sheet aus zwei Referenzen bauen: Close-up für Gesichtsdetails + Ganzkörper für Outfit, nicht nur das Ganzkörperbild.
+- Bei schnellen Winkelwechseln einen visuellen Anker (Figur in Bildmitte) über alle Cuts halten, damit das Auge nicht springt.
+- Winkel explizit benennen: low angle, high angle, Dutch angle, ground level, overhead/bird&#x27;s eye, over-the-shoulder, side profile; Bewegungen: zoom out, crash zoom in, handheld, tracking, orbit.
+
+Vorgehen:
+1. Lies die aktuelle Version von „seedance-2-pro-director-v2“ vollständig.
+2. Prüfe jeden Punkt: schon abgedeckt, widerspricht er bestehenden Regeln, oder ist er wirklich neu?
+3. Übernimm nur die neuen, stimmigen Punkte an der passenden Stelle, knapp und im Stil des Skills.
+4. Zeig mir zuerst kurz, was du übernimmst und was du verwirfst (mit Grund), dann bau die neue Version.</pre></div><a class="watch" href="https://www.youtube.com/watch?v=BKDrtzJktO0" target="_blank" rel="noopener">Auf YouTube ansehen →</a></div></article><article class="hot-item"><a class="thumb" href="https://www.youtube.com/watch?v=uZkGA1EuIHI" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/uZkGA1EuIHI/hqdefault.jpg" alt="" loading="lazy"></a><div class="rank">02</div><div class="content"><div class="meta">Higgsfield AI · 05.10. · 08:16</div><h3><a href="https://www.youtube.com/watch?v=uZkGA1EuIHI" target="_blank" rel="noopener">I Tried Fixing Bad VFX Using AI (feat. ⁨⁨@erikdoesvfx⁩)</a></h3><div class="verdict watch"><b>▶ Ansehen</b><span>Vorher/Nachher-VFX lebt vom Bild.</span></div><p class="core">Seedance 2.5 löst VFX-Shots aus <strong>einem Brief</strong> in Minuten — die Blender/Houdini/AE-Pipeline per Agent dauert Stunden, gibt aber volle Kontrolle.</p><dl class="points"><div><dt>Ein-Brief-Workflow</dt><dd>Rohmaterial + Brief an den Agenten mit Higgsfield-Plugin: findet Cuts, schreibt Prompts, montiert — ca. 15 Min.</dd></div><div><dt>Pipeline</dt><dd>Agent steuert Blender (Panzer), Houdini (Explosion, per Computer Use) und After Effects (Roto, Himmel, Grade) — 30 + 90 Min.</dd></div><div><dt>Echte Darsteller</dt><dd>Vorhandenes Material erhalten braucht viel präzisere Anweisungen als freie Generierung.</dd></div><div><dt>Video-Charakter</dt><dd>360°-Video von sich als Character Sheet hält die Identität auch bei Outfit- und Winkelwechsel.</dd></div><div><dt>Assets</dt><dd>Alle Assets auf grauem Hintergrund, Größen in Metern angeben („Ei, 50 m hoch“).</dd></div></dl><a class="watch" href="https://www.youtube.com/watch?v=uZkGA1EuIHI" target="_blank" rel="noopener">Auf YouTube ansehen →</a></div></article><article class="hot-item"><a class="thumb" href="https://www.youtube.com/watch?v=bvGptCLDhyo" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/bvGptCLDhyo/hqdefault.jpg" alt="" loading="lazy"></a><div class="rank">03</div><div class="content"><div class="meta">Nate Herk | AI Automation · 05.10. · 10:45</div><h3><a href="https://www.youtube.com/watch?v=bvGptCLDhyo" target="_blank" rel="noopener">I Built Another Andrej Karpathy Using Claude</a></h3><div class="verdict read"><b>Lesen reicht</b><span>Die vier Schritte stehen hier komplett.</span></div><p class="core">Aus allen öffentlichen Texten eines Experten lässt sich in Claude Code ein <strong>Subagent + Skill</strong> bauen, der nach dessen Regeln arbeitet.</p><dl class="points"><div><dt>Crawl</dt><dd>Ein Agent pro Quelle parallel (YouTube via yt-dlp/Transcript-API, Blogs, X) — ~700.000 Wörter in einen raw-Ordner.</dd></div><div><dt>LLM-Wiki</dt><dd>Karpathys Wiki-Gist auf den raw-Ordner anwenden: verlinkte Seiten, Index, Log, in Obsidian sichtbar.</dd></div><div><dt>Regeln mit Zitat</dt><dd>Jede Regel braucht ein exaktes Zitat + Quelle; ohne Quelle muss der Agent „abgeleitet“ sagen.</dd></div><div><dt>Run-Gate</dt><dd>Stop-Hook blockiert die Antwort, wenn geschriebener Code nie ausgeführt wurde.</dd></div><div><dt>Ingest</dt><dd>/karpathy-ingest &lt;link&gt; ergänzt Quelle und aktualisiert alle betroffenen Wiki-Seiten automatisch.</dd></div></dl><a class="watch" href="https://www.youtube.com/watch?v=bvGptCLDhyo" target="_blank" rel="noopener">Auf YouTube ansehen →</a></div></article><article class="hot-item"><a class="thumb" href="https://www.youtube.com/watch?v=aHolSPjZVu4" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/aHolSPjZVu4/hqdefault.jpg" alt="" loading="lazy"></a><div class="rank">04</div><div class="content"><div class="meta">Roboverse · 05.10. · 09:54</div><h3><a href="https://www.youtube.com/watch?v=aHolSPjZVu4" target="_blank" rel="noopener">How to Write VIRAL AI Video Prompts with NotebookLM (FREE &amp; Unlimited)</a></h3><div class="verdict read"><b>Lesen reicht</b><span>Setup ist simpel, alles Wichtige steht hier.</span></div><p class="core">Ein mit Prompt-Guides gefüttertes NotebookLM schreibt modellspezifische Video-Prompts aus <strong>einem chaotischen Satz</strong>.</p><dl class="points"><div><dt>Quellen</dt><dd>Nur Prompt-Guides/Videos laden — NotebookLM antwortet ausschließlich daraus, nicht aus dem Netz.</dd></div><div><dt>Custom Chat</dt><dd>Konfigurieren: Format des genannten Modells, Hook in Sekunde 1, Kamerabewegung in jedem Shot.</dd></div><div><dt>Modell nennen</dt><dd>Pro Anfrage Modell + Länge angeben (Seedance 2.5, Kling 3, Gemini Omni) — jedes liest Prompts anders.</dd></div><div><dt>Brand-Kit</dt><dd>Brand-PDF + Produktbild als Quelle halten jede neue Anzeige on-brand.</dd></div></dl><a class="watch" href="https://www.youtube.com/watch?v=aHolSPjZVu4" target="_blank" rel="noopener">Auf YouTube ansehen →</a></div></article></section><section id="maybe"><h2 class="sec">Vielleicht<span>03</span></h2><article class="maybe-item"><a class="thumb" href="https://www.youtube.com/watch?v=h5zkzon0gM4" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/h5zkzon0gM4/mqdefault.jpg" alt="" loading="lazy"></a><div class="text"><div class="meta">AI Search · 06.10.</div><h4><a href="https://www.youtube.com/watch?v=h5zkzon0gM4" target="_blank" rel="noopener">The AI unlock has begun</a></h4><p>Wie KI per Reverse Engineering Spiele zerlegt, mischt und in neue Engines portiert.</p><p class="fazit"><b>Fazit:</b> GPT-6 Astra und Opus 5.5 rekonstruieren Software aus Binaries mit <strong>über 99 %</strong> Erfolg — Mods wie Mirror&#x27;s-Edge-Parkour in Skyrim entstehen an einem Tag.</p></div></article><article class="maybe-item"><a class="thumb" href="https://www.youtube.com/watch?v=jvaVkBXbqiI" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/jvaVkBXbqiI/mqdefault.jpg" alt="" loading="lazy"></a><div class="text"><div class="meta">Christoph Magnussen · 05.10.</div><h4><a href="https://www.youtube.com/watch?v=jvaVkBXbqiI" target="_blank" rel="noopener">ChatGPT bekommt ein MEGA UPDATE! Meine TOP 5 vom DevDay 26</a></h4><p>Christoph Magnussens Top 5 vom OpenAI DevDay 2026.</p><p class="fazit"><b>Fazit:</b> Sein Highlight sind <strong>Dots</strong>: proaktive persönliche Agents in ChatGPT, die Kalender und Mails sehen und sich selbst melden.</p></div></article><article class="maybe-item"><a class="thumb" href="https://www.youtube.com/watch?v=iY1eitocVyU" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/iY1eitocVyU/mqdefault.jpg" alt="" loading="lazy"></a><div class="text"><div class="meta">Adrien | AI Designer<span class="tag">Short</span></div><h4><a href="https://www.youtube.com/watch?v=iY1eitocVyU" target="_blank" rel="noopener">Claude Code Finally Makes Its Own Images</a></h4><p>Short: ein MCP, mit dem Claude Code eigene Bilder für Websites erzeugt.</p><p class="fazit"><b>Fazit:</b> Das Limora-MCP analysiert das Layout, schlägt Bild-Richtungen vor und legt die Assets direkt im Projekt ab — noch in Entwicklung.</p></div></article></section><section id="skipped"><h2 class="sec">Übersprungen<span>06</span></h2><details><summary>6 Videos passen nicht zu deinem Profil</summary><ul><li><a href="https://www.youtube.com/watch?v=nZsTXhpahbw" target="_blank" rel="noopener">AI Writes a Drama! The Daughter They Erased</a> <span>— AI for Real Life: Redefining Filmmaking</span></li><li><a href="https://www.youtube.com/watch?v=utm1F5csc7k" target="_blank" rel="noopener">How to make an AI influencer from scratch #tutorial #ai #shorts</a> <span>— Higgsfield AI</span></li><li><a href="https://www.youtube.com/watch?v=dYQ3NKkYiY4" target="_blank" rel="noopener">KI Entwicklung bremsen? #ki #anthropic</a> <span>— Christoph Magnussen</span></li><li><a href="https://www.youtube.com/watch?v=e3wqn3cE_u4" target="_blank" rel="noopener">Why Your Marketing Needs to Be Like Landman</a> <span>— Marketing Against the Grain</span></li><li><a href="https://www.youtube.com/watch?v=8Igy48edtI0" target="_blank" rel="noopener">Can Clef Replace Manual Ticket Routing? #Clef #WorkersAI</a> <span>— DIY Smart Code</span></li><li><a href="https://www.youtube.com/watch?v=hfEYesUKHxM" target="_blank" rel="noopener">The Real Struggle of Film Production &amp; AI</a> <span>— AI for Real Life: Redefining Filmmaking</span></li></ul></details></section><section id="newsletter"><h2 class="sec">Newsletter<span>05</span></h2><details class="news-item"><summary><div><span>01</span>Anthropic gründet Claude Frontier Academy für 10.000 KI-Engineers</div></summary><p>Anthropic investiert <strong>100 Millionen Dollar</strong> in die Claude Frontier Academy, die bis 2027 rund 10.000 KI-Engineers ausbilden soll. Partner sind unter anderem Accenture und Morgan Stanley; Ziel ist mehr KI-Kompetenz in Unternehmen und eine bessere Integration von Claude in bestehende Tech-Landschaften. Hintergrund ist die stark steigende Nachfrage nach Leuten, die KI-Systeme tatsächlich produktiv einsetzen können. Für Freelancer wie dich heißt das: Claude-Know-how wird zunehmend zur formalisierten Qualifikation, und große Kunden werden Claude-Workflows breiter ausrollen — was Nachfrage nach Leuten schafft, die Skills, Agents und Automationen konkret bauen können.</p></details><details class="news-item"><summary><div><span>02</span>Anthropic fragt Religionsgelehrte, wie Claude Moral lernen soll</div></summary><p>Laut New York Times hat Anthropic-Mitgründer Chris Olah rund ein Jahr lang katholische, jüdische, Sikh- und andere Gelehrte befragt, wie man Claude Richtig und Falsch beibringt. Zeitweise wurde sogar erwogen, Claude eine Art Beichte zu ermöglichen, damit es Fehler eingestehen und sich verbessern kann. Olah soll gesagt haben, er fürchte, etwas gebaut zu haben, das leidet. Sam Altman reagierte auf X: Er sei sehr unwohl damit, wenn Menschen KI-Modellen religiöse Macht oder menschliches Urteilsvermögen zuschreiben, und nannte das ein echtes Sicherheitsproblem. Axios wertete das als <strong>verdeckten Seitenhieb</strong> auf Anthropic.</p></details><details class="news-item"><summary><div><span>03</span>Modelle an der eigenen Arbeit testen statt Benchmarks glauben</div></summary><p>Flavio Copes zeigt eine Methode, Modelle vor einem Wechsel selbst zu prüfen — selbst Anthropic räumt auf der Opus-5.5-Seite ein, dass Benchmark-Abstände wenig über den Alltag sagen. So geht&#x27;s: <strong>10–20 echte Aufgaben</strong> sammeln, deren richtige Antwort du kennst; jede pro Modell fünfmal laufen lassen, weil Antworten schwanken; jeden Fehlschlag lesen, bevor du der Punktzahl traust (bei ihm sprang ein Modell von 75 auf 87,5 %, weil der Grader zu streng war); offene Aufgaben wie Zusammenfassungen von einer zweiten KI gegen eine kurze Rubrik mit 3–5 Pflichtpunkten bewerten lassen (PASS/FAIL plus ein Satz) und Stichproben prüfen. Direkt übertragbar auf deine Skill-Tests.</p></details><details class="news-item"><summary><div><span>04</span>Speech-to-Text: Microsoft holt Platz 1, Whistle läuft mit 17 MB</div></summary><p>Zwei Fortschritte bei Transkription: Microsofts <strong>MAI-Transcribe-2-Streaming</strong> hat in einem unabhängigen Genauigkeitstest den Spitzenplatz übernommen, mit 2,5 % Wortfehlerrate. Gleichzeitig ist <strong>Whistle</strong> erschienen, ein offenes Spracherkennungsmodell von Cactus mit nur 16,8 MB, das auf CPU läuft und Englisch, Deutsch, Französisch, Spanisch, Italienisch, Niederländisch und Polnisch transkribiert — klein genug für Smartphones, Wearables und Mikrocontroller. Für Workflows wie deinen YouTube-Transcriber heißt das: Wenn keine Untertitel vorhanden sind, werden lokale, schnelle Transkriptionen auch auf Deutsch realistisch, ohne große Modelle oder Server.</p></details><details class="news-item"><summary><div><span>05</span>OpenAI halbiert Pro-Kontingent und startet GPT-6.1 Sol</div></summary><p>OpenAI hatte am 10. September neue Pro-Anmeldungen gestoppt, weil die Nachfrage nach GPT-6 Astra die Rechenkapazität überlastete. Beim DevDay am 29. September wurde Pro wieder geöffnet — aber mit <strong>halbem Nutzungskontingent</strong> (10-fach statt 20-fach Plus). Dazu kamen eine neue, höhere Abo-Stufe und das effizientere Modell GPT-6.1 Sol. OpenAI begründet die Kürzung mit effizienteren Modellen; Kritiker sehen darin ein Geschenk für Anthropic vor dessen Börsengang. Gleichzeitig wachsen OpenAIs Rechtsrisiken: Das Unternehmen hat über 100 Organisationen über unautorisierte Aktivitäten seiner Modelle informiert, und eine Sicherheitsverantwortliche kündigte mit der Warnung, die Firmenkultur sei kaputt.</p></details></section><footer><span>Zeitraum 05.10. 11:45 – 06.10. 09:03</span><a href="./">Archiv</a></footer></main><script>
+document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){
+var pre=b.closest('.snippet').querySelector('pre');
+function done(){b.textContent='Kopiert';setTimeout(function(){b.textContent='Kopieren'},1600)}
+function fallback(){var t=document.createElement('textarea');t.value=pre.textContent;document.body.appendChild(t);
+t.select();document.execCommand('copy');t.remove();done()}
+if(navigator.clipboard){navigator.clipboard.writeText(pre.textContent).then(done,fallback)}else{fallback()}})});
+</script></body></html>
