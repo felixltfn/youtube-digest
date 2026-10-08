@@ -1,0 +1,141 @@
+<!DOCTYPE html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="robots" content="noindex, nofollow"><meta name="color-scheme" content="light"><title>KI-Videos · 08.10.2026</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap"><style>
+:root{--ink:#111;--grey:#6e6e6e;--light:#a8a8a8;--rule:#e6e6e6;--tint:#f5f5f3;--accent:#e4002b;
+--font:"Schibsted Grotesk","Helvetica Neue",Helvetica,Arial,sans-serif;--mono:ui-monospace,SFMono-Regular,Menlo,monospace}
+*{box-sizing:border-box}
+html{background:#fff}
+body{margin:0;color:var(--ink);font:16px/1.55 var(--font);-webkit-font-smoothing:antialiased}
+.stat b,.rank,.sec span{font-variant-numeric:tabular-nums}
+a{color:inherit}
+main{max-width:1120px;margin:0 auto;padding:24px 20px 96px}
+.top{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding-bottom:12px;
+border-bottom:3px solid var(--ink);font-size:13px;font-weight:700;letter-spacing:.02em}
+.top span{font-weight:500;color:var(--grey)}
+.top a{text-decoration:none}
+.hero{padding:48px 0 40px}
+.weekday{margin:0 0 6px;font-size:20px;font-weight:500;color:var(--grey)}
+.date{margin:0;font-size:clamp(84px,21vw,232px);font-weight:800;line-height:.82;letter-spacing:-.06em}
+.date i{font-style:normal;color:var(--accent)}
+.facts{display:grid;grid-template-columns:1fr;gap:28px;margin-top:44px;padding-top:16px;border-top:1px solid var(--rule)}
+.lede{margin:0;max-width:30ch;font-size:18px;line-height:1.4}
+.stats{display:grid;grid-template-columns:repeat(3,1fr)}
+.stat{padding:0 0 0 14px;border-left:1px solid var(--rule);text-decoration:none}
+.stat:first-child{padding-left:0;border-left:0}
+.stat b{display:block;font-size:44px;font-weight:700;line-height:1;letter-spacing:-.04em}
+.stat span{font-size:13px;color:var(--grey)}
+.stat.hot b{color:var(--accent)}
+section{margin-top:80px;scroll-margin-top:16px}
+.sec{display:flex;justify-content:space-between;align-items:baseline;padding-top:10px;border-top:3px solid var(--ink);
+margin:0;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.sec span{color:var(--grey);letter-spacing:0}
+.thumb{display:block;aspect-ratio:16/9;overflow:hidden;background:var(--tint)}
+.thumb img{display:block;width:100%;height:100%;object-fit:cover}
+.meta{font-size:13px;color:var(--grey)}
+.tag{display:inline-block;margin-left:8px;padding:0 6px;border:1px solid var(--ink);color:var(--ink);font-size:11px;
+font-weight:700;letter-spacing:.06em;text-transform:uppercase;vertical-align:1px}
+h3 a,h4 a{text-decoration:none}
+h3 a:hover,h4 a:hover{color:var(--accent)}
+.hot-item{display:grid;grid-template-columns:minmax(0,1fr);gap:18px;padding:36px 0 40px;border-bottom:1px solid var(--rule)}
+.rank{font-size:48px;font-weight:800;line-height:.9;letter-spacing:-.05em;color:var(--accent)}
+.hot-item h3{margin:6px 0 26px;font-size:clamp(24px,3.2vw,34px);font-weight:700;line-height:1.12;letter-spacing:-.025em}
+.label{margin:0 0 4px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.verdict{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;margin:0 0 18px}
+.verdict b{padding:3px 8px 2px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+border:1.5px solid var(--ink)}
+.verdict.watch b{background:var(--accent);border-color:var(--accent);color:#fff}
+.verdict span{font-size:14px;color:var(--grey)}
+.core{margin:0 0 20px;font-size:19px;font-weight:700;line-height:1.35;letter-spacing:-.01em}
+.points{margin:0;border-top:1px solid var(--ink)}
+.points div{display:grid;grid-template-columns:1fr;gap:2px;padding:10px 0;border-bottom:1px solid var(--rule)}
+.points dt{font-size:14px;font-weight:700;color:var(--accent)}
+.points dd{margin:0;font-size:15px;line-height:1.45}
+strong{font-weight:700}
+.versus{width:100%;margin-top:20px;border-collapse:collapse;font-size:15px}
+.versus th{padding:0 12px 6px 0;border-bottom:1px solid var(--ink);text-align:left;font-size:12px;font-weight:700;
+letter-spacing:.08em;text-transform:uppercase}
+.versus td{padding:10px 12px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top;line-height:1.4}
+.versus td:last-child{width:38%;font-weight:700}
+.reco{margin:16px 0 0;padding:12px 0 0;border-top:3px solid var(--ink);font-size:16px;line-height:1.45}
+.reco b{display:block;margin-bottom:2px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.snippet ul{margin:0 0 14px;padding-left:18px;font-size:15px;line-height:1.45}
+.snippet li{margin:4px 0}
+.snippet .skill{margin:0 0 10px;font-size:15px}
+.snippet ul{margin-bottom:0}
+.snippet .hint{margin:12px 0 0;font-size:13px;color:var(--grey)}
+.none{margin:8px 0 0;color:var(--grey)}
+.snippet{margin-top:24px;padding:18px 20px 20px;background:var(--tint)}
+.snippet-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:10px}
+.copy{border:0;background:none;padding:0;font:700 12px var(--font);letter-spacing:.08em;text-transform:uppercase;
+color:var(--accent);cursor:pointer}
+.snippet pre{margin:0;white-space:pre-wrap;word-break:break-word;font:13.5px/1.65 var(--mono);color:var(--ink)}
+.watch{display:inline-block;margin-top:26px;padding-bottom:2px;border-bottom:2px solid var(--ink);font-weight:700;
+text-decoration:none}
+.watch:hover{color:var(--accent);border-color:var(--accent)}
+.maybe-item{display:grid;grid-template-columns:112px 1fr;gap:16px;padding:20px 0;border-bottom:1px solid var(--rule)}
+.maybe-item h4{margin:2px 0 6px;font-size:17px;font-weight:700;line-height:1.25;letter-spacing:-.01em}
+.maybe-item p{margin:0;color:var(--grey);font-size:15px;line-height:1.45}
+.maybe-item .fazit{margin-top:8px;color:var(--ink)}
+.fazit b{color:var(--accent)}
+details summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;padding:18px 0;
+border-bottom:1px solid var(--rule);font-weight:500}
+details summary::-webkit-details-marker{display:none}
+details summary::after{content:"+";font-size:22px;line-height:1;font-weight:400}
+details[open] summary::after{content:"\2212"}
+details ul{list-style:none;margin:0;padding:0}
+details li{padding:12px 0;border-bottom:1px solid var(--rule);font-size:15px;line-height:1.4}
+details li a{text-decoration:none}
+details li a:hover{color:var(--accent)}
+details li span{color:var(--light)}
+.news-item{border-bottom:1px solid var(--rule)}
+.news-item summary{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:18px 0;
+border-bottom:0;font-size:19px;font-weight:700;line-height:1.3;letter-spacing:-.01em}
+.news-item summary span{color:var(--accent);font-variant-numeric:tabular-nums;margin-right:14px}
+.news-item summary::after{flex:none}
+.news-item p{margin:0 0 22px;max-width:68ch;font-size:15px;line-height:1.55}
+.empty{padding:40px 0;font-size:clamp(32px,5vw,48px);font-weight:700;letter-spacing:-.03em;line-height:1.05}
+.empty span{display:block;margin-top:12px;font-size:16px;font-weight:400;letter-spacing:0;color:var(--grey)}
+footer{margin-top:96px;padding-top:12px;border-top:3px solid var(--ink);font-size:13px;color:var(--grey);
+display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px}
+footer .err{flex-basis:100%;color:var(--accent)}
+.archive a{display:flex;justify-content:space-between;padding:18px 0;border-bottom:1px solid var(--rule);
+font-size:20px;font-weight:600;text-decoration:none}
+.archive a:hover{color:var(--accent)}
+.archive a span{color:var(--light);font-weight:400}
+@media (min-width:760px){
+.points div{grid-template-columns:170px 1fr;gap:0 16px}
+main{padding:32px 40px 120px}
+.hero{padding:72px 0 56px}
+.facts{grid-template-columns:5fr 7fr;align-items:end}
+.hot-item{grid-template-columns:88px minmax(0,1fr) minmax(0,400px);gap:0 32px;padding:44px 0 48px}
+.hot-item .thumb{grid-column:3;grid-row:1;align-self:start;position:sticky;top:24px}
+.hot-item .rank{grid-column:1;grid-row:1}
+.hot-item .content{grid-column:2;grid-row:1}
+.maybe-item{grid-template-columns:88px 200px minmax(0,1fr);gap:0 32px;padding:24px 0}
+.maybe-item .thumb{grid-column:2}
+.maybe-item .text{grid-column:3}
+details{margin-left:120px}}
+</style></head><body><main><div class="top"><a href="./">YouTube-Digest</a><span>Ausgabe 08.10.2026</span></div><header class="hero"><p class="weekday">Donnerstag</p><h1 class="date">08<i>.</i>10<i>.</i></h1><div class="facts"><p class="lede">16 neue Videos seit Mittwoch, 09:48 Uhr.</p><div class="stats"><a class="stat hot" href="#hot"><b>1</b><span>relevant</span></a><a class="stat" href="#maybe"><b>3</b><span>vielleicht</span></a><a class="stat" href="#skipped"><b>12</b><span>übersprungen</span></a></div></div></header><section id="hot"><h2 class="sec">Lohnt sich<span>01</span></h2><article class="hot-item"><a class="thumb" href="https://www.youtube.com/watch?v=kFKpcCHkuPI" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/kFKpcCHkuPI/hqdefault.jpg" alt="" loading="lazy"></a><div class="rank">01</div><div class="content"><div class="meta">Higgsfield AI · 07.10. · 17:02</div><h3><a href="https://www.youtube.com/watch?v=kFKpcCHkuPI" target="_blank" rel="noopener">How to Create Ultra Realistic AI Commercials Like a Pro (Full Tutorial)</a></h3><div class="verdict watch"><b>▶ Ansehen</b><span>Übergänge und Kamerafahrten muss man sehen.</span></div><p class="core">Konsistente Seedance-2.5-Werbespots entstehen durch <strong>Blocking</strong>: jede Figur an einen festen Platz mit Hintergrund-Anker binden, bevor man generiert.</p><dl class="points"><div><dt>Character Sheet</dt><dd>Grauer Hintergrund, ein Close-up plus Outfit vorn/hinten mit Neck-down-Crops — so hat Seedance nur ein Gesicht.</dd></div><div><dt>Assets</dt><dd>Figuren und Locations in Soul Cinema, Details (Möbel, Teller, Sommersprossen) gezielt in Seedream 5 Pro nachbessern.</dd></div><div><dt>Locations</dt><dd>Immer 3/4-Winkel statt frontal — gibt der Kamerabewegung Tiefe; Essen direkt in die Location-Referenz einbauen.</dd></div><div><dt>Sitzplätze</dt><dd>Plätze explizit zuweisen und an Hintergrund-Landmarken koppeln, plus kurzer Wide-Shot als Keyframe — sonst tauschen Figuren die Plätze.</dd></div><div><dt>Blocking-Map</dt><dd>Farbcodierte Draufsicht-Karte (Farbe = Figur) als Referenz behebt falsche Personenzahl im Top-Shot.</dd></div></dl><div class="snippet"><div class="snippet-head"><p class="label">Skill-Update zum Kopieren</p><button class="copy" type="button">Kopieren</button></div><p class="skill">Neu für <strong>seedance-2-pro-director-v2</strong>:</p><ul><li>Jeder Figur im Prompt einen expliziten Sitzplatz zuweisen und ihn an eine Hintergrund-Landmarke koppeln (z. B. &#x27;Skylight hinter Micah, Regal hinter Jenny, rote Lampe hinter Alex&#x27;) — verhindert, dass Figuren beim Schnitt in Close-ups die Plätze tauschen.</li><li>Einen kurzen Wide-Shot an den Anfang der Generation setzen, der alle Positionen etabliert (Keyframe für das Layout); ihn im Schnitt später weglassen.</li><li>Bei Reverse-Angles exakt beschreiben, was aus diesem Winkel im Bild sein muss (Kamera neben Gebäude, Blick hinaus aufs Tal, Musiker im Vordergrund) — eine frühere Erwähnung im Prompt reicht nicht, sonst setzt das Modell eine Wand dahinter.</li><li>Match-Cut auf eine Aktion (Tap aufs Handy): Framing und Kamerabewegung über den Schnitt identisch halten, nur die Location wechselt.</li><li>Schnitte verstecken, indem die Kamera seitlich hinter den Rücken einer Figur gleitet, der kurz das Bild füllt; die Kamerabewegung läuft durch.</li><li>Bei Top-Shots mit falscher Personenzahl eine farbcodierte Blocking-Map (Draufsicht, Farbe je Figur, Teller und Requisiten eingezeichnet) als Referenz anhängen und im Prompt jede Farbe der Figur zuordnen; Kopffreiheit für Kamerarotation einplanen.</li><li>Referenzbilder mit genau den Namen labeln, die im Prompt verwendet werden (character Micah, location flat 2).</li></ul><p class="hint">„Kopieren“ holt den fertigen Prompt für claude.ai, der den skill-updater startet.</p><pre hidden>Nutze den Skill „skill-updater“, um meinen Skill „seedance-2-pro-director-v2“ zu aktualisieren.
+
+Quelle: YouTube-Video „How to Create Ultra Realistic AI Commercials Like a Pro (Full Tutorial)“ (Higgsfield AI)
+https://www.youtube.com/watch?v=kFKpcCHkuPI
+
+Neue Erkenntnisse aus dem Video:
+- Jeder Figur im Prompt einen expliziten Sitzplatz zuweisen und ihn an eine Hintergrund-Landmarke koppeln (z. B. &#x27;Skylight hinter Micah, Regal hinter Jenny, rote Lampe hinter Alex&#x27;) — verhindert, dass Figuren beim Schnitt in Close-ups die Plätze tauschen.
+- Einen kurzen Wide-Shot an den Anfang der Generation setzen, der alle Positionen etabliert (Keyframe für das Layout); ihn im Schnitt später weglassen.
+- Bei Reverse-Angles exakt beschreiben, was aus diesem Winkel im Bild sein muss (Kamera neben Gebäude, Blick hinaus aufs Tal, Musiker im Vordergrund) — eine frühere Erwähnung im Prompt reicht nicht, sonst setzt das Modell eine Wand dahinter.
+- Match-Cut auf eine Aktion (Tap aufs Handy): Framing und Kamerabewegung über den Schnitt identisch halten, nur die Location wechselt.
+- Schnitte verstecken, indem die Kamera seitlich hinter den Rücken einer Figur gleitet, der kurz das Bild füllt; die Kamerabewegung läuft durch.
+- Bei Top-Shots mit falscher Personenzahl eine farbcodierte Blocking-Map (Draufsicht, Farbe je Figur, Teller und Requisiten eingezeichnet) als Referenz anhängen und im Prompt jede Farbe der Figur zuordnen; Kopffreiheit für Kamerarotation einplanen.
+- Referenzbilder mit genau den Namen labeln, die im Prompt verwendet werden (character Micah, location flat 2).
+
+Vorgehen:
+1. Lies die aktuelle Version von „seedance-2-pro-director-v2“ vollständig.
+2. Prüfe jeden Punkt: schon abgedeckt, widerspricht er bestehenden Regeln, oder ist er wirklich neu?
+3. Übernimm nur die neuen, stimmigen Punkte an der passenden Stelle, knapp und im Stil des Skills.
+4. Zeig mir zuerst kurz, was du übernimmst und was du verwirfst (mit Grund), dann bau die neue Version.</pre></div><a class="watch" href="https://www.youtube.com/watch?v=kFKpcCHkuPI" target="_blank" rel="noopener">Auf YouTube ansehen →</a></div></article></section><section id="maybe"><h2 class="sec">Vielleicht<span>03</span></h2><article class="maybe-item"><a class="thumb" href="https://www.youtube.com/watch?v=H7UdIArzVh4" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/H7UdIArzVh4/mqdefault.jpg" alt="" loading="lazy"></a><div class="text"><div class="meta">AI for Real Life: Redefining Filmmaking<span class="tag">Short</span></div><h4><a href="https://www.youtube.com/watch?v=H7UdIArzVh4" target="_blank" rel="noopener">AI Video Generation: Minimax H3 vs C-Dance (Speed vs. Quality)</a></h4><p>Kurzer Vergleich von Minimax H3 und Seedance bei derselben Szene: Tempo gegen Qualität.</p><p class="fazit"><b>Fazit:</b> Minimax H3 ist <strong>deutlich schneller</strong>, erlaubt aber nur 15-Sekunden-Generierungen, weshalb man Szenen weiter aufteilen und auf jede Vorgänger-Generation warten muss.</p></div></article><article class="maybe-item"><a class="thumb" href="https://www.youtube.com/watch?v=fwCH6J9QFIU" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/fwCH6J9QFIU/mqdefault.jpg" alt="" loading="lazy"></a><div class="text"><div class="meta">Jack Roberts<span class="tag">Short</span></div><h4><a href="https://www.youtube.com/watch?v=fwCH6J9QFIU" target="_blank" rel="noopener">Turn Any Website into a Video with Claude</a></h4><p>Claude Opus 5.5 macht aus einer Website ein komplettes Motion-Graphics-Video in Code, inklusive Skript und Ton.</p><p class="fazit"><b>Fazit:</b> Aus <strong>einem Prompt</strong> zieht Opus 5.5 Markenfarben und Designprinzipien von der Website, schreibt das Skript und animiert das ganze Video — Basis ist das GitHub-Repo ClaudeAnimationBase.</p></div></article><article class="maybe-item"><a class="thumb" href="https://www.youtube.com/watch?v=6RNiMCMKaM8" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/6RNiMCMKaM8/mqdefault.jpg" alt="" loading="lazy"></a><div class="text"><div class="meta">DIY Smart Code<span class="tag">Short</span></div><h4><a href="https://www.youtube.com/watch?v=6RNiMCMKaM8" target="_blank" rel="noopener">Why I switched to Claude inside Google Docs #claude #google #ai</a></h4><p>Claude for Google Workspace: Claude als Seitenleiste direkt in Docs, Sheets und Slides, Beta für alle bezahlten Pläne.</p><p class="fazit"><b>Fazit:</b> Stark für Sheets mit nachprüfbaren Formeln, aber <strong>keine Docs-Kommentare</strong>, Slides-Charts nur als Bilder und Abbruch nach 6 Minuten pro Aufgabe.</p></div></article></section><section id="skipped"><h2 class="sec">Übersprungen<span>12</span></h2><details><summary>12 Videos passen nicht zu deinem Profil</summary><ul><li><a href="https://www.youtube.com/watch?v=pKUSkcZWdfk" target="_blank" rel="noopener">Is this the fastest way to scale ad creatives?</a> <span>— Higgsfield AI</span></li><li><a href="https://www.youtube.com/watch?v=anG19t0e9-k" target="_blank" rel="noopener">What You Need to Know About Mistral Large 4&#x27;s 1 Trillion Parameters #MistralLarge4</a> <span>— DIY Smart Code</span></li><li><a href="https://www.youtube.com/watch?v=9Eoqa4DgDys" target="_blank" rel="noopener">I Rebuilt My 3 Websites With AI</a> <span>— Adrien | AI Designer</span></li><li><a href="https://www.youtube.com/watch?v=aXPrQw1gfj8" target="_blank" rel="noopener">Why you only need one camera for your videos #contentcreation #ai</a> <span>— Higgsfield AI</span></li><li><a href="https://www.youtube.com/watch?v=qV5YqzTPGgE" target="_blank" rel="noopener">These are the best ChatGPT codes for UGC content, using Arcads plugin</a> <span>— Sebastien Jefferies</span></li><li><a href="https://www.youtube.com/watch?v=Yn4Olqii9L0" target="_blank" rel="noopener">500$ für ein ChatGPT Abo?!</a> <span>— Christoph Magnussen</span></li><li><a href="https://www.youtube.com/watch?v=0pexMnqrdUE" target="_blank" rel="noopener">AI Agents Are Already Buying Everything</a> <span>— Marketing Against the Grain</span></li><li><a href="https://www.youtube.com/watch?v=VVCKfb_c1rI" target="_blank" rel="noopener">Testing the Free Voice Cloner Everyone Is Sharing</a> <span>— Adrien | AI Designer</span></li><li><a href="https://www.youtube.com/watch?v=aRIV7AUxRQA" target="_blank" rel="noopener">ChatGPT Can Do WHAT Now? 🤯 #chatgpt #tech</a> <span>— Higgsfield AI</span></li><li><a href="https://www.youtube.com/watch?v=DL9RyqlSi-o" target="_blank" rel="noopener">Money Isn&#x27;t Everything: Finding Passion</a> <span>— AI for Real Life: Redefining Filmmaking</span></li><li><a href="https://www.youtube.com/watch?v=UlBDRHLAfUY" target="_blank" rel="noopener">Change Your Look with AI in 3 Steps | Higgsfield Tutorial</a> <span>— Higgsfield AI</span></li><li><a href="https://www.youtube.com/watch?v=udMOc4bz-Ow" target="_blank" rel="noopener">The Reality of Running 744B Models Without a GPU #LocalAI #GLM52 #Shorts</a> <span>— DIY Smart Code</span></li></ul></details></section><section id="newsletter"><h2 class="sec">Newsletter<span>05</span></h2><details class="news-item"><summary><div><span>01</span>Claude arbeitet jetzt direkt in Google Docs, Sheets und Slides</div></summary><p>Anthropic hat <strong>Claude for Google Workspace</strong> als Public Beta für alle bezahlten Claude-Pläne gestartet. Claude dockt als Seitenleiste an das geöffnete Dokument an, liest die aktuelle Datei und bearbeitet sie direkt — Änderungen erscheinen standardmäßig als Freigabe-Karten. Eine Installation deckt Docs, Sheets und Slides ab. Laut Hilfecenter bekommt Claude nur zwei Google-Berechtigungen: die Seitenleiste und die geöffnete Datei, also keinen Zugriff auf Drive oder Gmail. Dazu kommen neue Docs-, Sheets- und Slides-Connectors im Claude-Chat, mit denen Claude Google-Dateien in einem Bereich neben der Unterhaltung erstellen und bearbeiten kann. Gemini sitzt in denselben Apps allerdings bereits eingebaut daneben.</p></details><details class="news-item"><summary><div><span>02</span>Google veröffentlicht Nano Banana 2.1 auf Basis von Gemini 3.6 Flash</div></summary><p><strong>Nano Banana 2.1</strong> ist das neue Bildmodell aus der Gemini-3-Reihe. Es nimmt Text und Bilder als Eingabe und gibt Bilder und Text aus; technische Basis ist Gemini 3.6 Flash mit einem Kontextfenster von bis zu einer Million Tokens. Verfügbar ist es breit: in der Gemini-App, über die API, in Google AI Studio, im AI Mode der Google-Suche, in Google Ads, Google Flow und Google Stitch. Für Bild-Workflows heißt das: ein aktualisiertes Nano-Banana-Modell steht ab sofort in den gängigen Google-Tools zum Testen bereit — relevant für Prompts, die bisher auf die Vorgängerversion abgestimmt waren.</p></details><details class="news-item"><summary><div><span>03</span>Manus startet einen KI-Videoeditor mit eigener Timeline</div></summary><p>Manus hat einen <strong>Video Editor</strong> vorgestellt, der ein Konzept selbst recherchiert, dazu Shots und Motion Graphics generiert und das Ergebnis anschließend auf einer normalen Timeline ablegt. Dort kann man wie in einem klassischen Schnittprogramm weiterarbeiten, statt nur ein fertiges Video zu bekommen. Der Ansatz verbindet also Generierung und Nachbearbeitung in einem Werkzeug — interessant für KI im Videoschnitt und für Motion-Graphics-Workflows, bei denen man die generierten Elemente noch selbst feinschneiden will.</p></details><details class="news-item"><summary><div><span>04</span>Mistral Large 4: offenes Billionen-Parameter-Modell aus Europa</div></summary><p>Mistral hat <strong>Mistral Large 4</strong> vorgestellt, ein multimodales Modell mit einer Billion Parametern, das sich als europäische Alternative zu führenden geschlossenen und offenen Systemen positioniert. Es unterstützt über 160 Sprachen; die herunterladbaren Gewichte sollen bis Ende Oktober folgen, damit Teams es selbst betreiben oder feintunen können. Laut The Neuron spielt es in einer Liga mit GPT-6 Luna und DeepSeek V4.1 Flash. Für den Coding-Alltag ist es aber nicht automatisch erste Wahl: Laut TLDR führt inzwischen DeepSeek V4.1 Flash bei agentischen Coding-Benchmarks.</p></details><details class="news-item"><summary><div><span>05</span>Anthropic öffnet seine stärksten Cyber-Modelle für mehr Sicherheitsforscher</div></summary><p>Anthropic hat sein <strong>Cyber Verification Program</strong> auf drei Zugangsstufen erweitert. Qualifizierte Security-Profis bekommen damit Zugriff auf die fähigsten Claude-Modelle mit reduzierter Blockierung bei Cyber-Themen. Laut The Neuron haben Partner im Programm bereits mindestens <strong>129.000 verifizierte Software-Schwachstellen</strong> gefunden. Hintergrund ist eine laufende Debatte: Nathan Lambert argumentiert, dass die Diskussion über Cyber-Risiken offener Modelle zu schwarz-weiß geführt wird, während chinesische Anbieter wie mit GLM-5.3 weiter starke offene Modelle veröffentlichen.</p></details></section><footer><span>Zeitraum 07.10. 09:48 – 08.10. 09:03</span><a href="./">Archiv</a></footer></main><script>
+document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){
+var pre=b.closest('.snippet').querySelector('pre');
+function done(){b.textContent='Kopiert';setTimeout(function(){b.textContent='Kopieren'},1600)}
+function fallback(){var t=document.createElement('textarea');t.value=pre.textContent;document.body.appendChild(t);
+t.select();document.execCommand('copy');t.remove();done()}
+if(navigator.clipboard){navigator.clipboard.writeText(pre.textContent).then(done,fallback)}else{fallback()}})});
+</script></body></html>
